@@ -1,0 +1,94 @@
+# on virtual-gypsy: grakn console -k dqtest -f /home/gja/GRAKN/Alert_Object.gql
+
+define
+
+system sub entity,
+   plays hasrepresentingsystem,
+   has sysname;
+
+plantobject sub entity,
+   plays represents,
+   has ident;
+
+sysplantobject sub entity,
+   plays representedby,
+   plays defines,
+   has name,
+   has description;
+
+aspect_definition sub entity,
+    has aspect_name,
+    has aspect_description,
+    has aspect_type,
+    plays ispropertytype;
+
+aspect sub entity,
+    plays hasproperty,
+#    plays alertFor,
+    plays errorneousAspectValue,
+    has internal_reference,
+    has aspect_data_value;
+
+representation sub relation,
+   relates representedby,
+   relates represents,
+   relates hasrepresentingsystem;
+
+property sub relation,
+   relates hasproperty,
+   relates ispropertytype,
+   relates defines;
+   
+name sub attribute,
+   datatype string;
+
+sysname sub attribute,
+   datatype string;
+
+ident sub attribute,
+   datatype string;
+
+description sub attribute,
+   datatype string;
+
+aspect_name sub attribute,
+   datatype string;
+
+aspect_description sub attribute,
+   datatype string;
+
+aspect_type sub attribute,
+   datatype string;
+
+aspect_data_value sub attribute,
+   datatype string;
+
+internal_reference sub attribute,
+   datatype string;
+
+alert sub entity,
+   plays hasAlert,
+   plays hasAlertInstance,
+   has InternalAlertReference;
+
+alertRelation sub relation,
+   relates alertFor,
+   relates hasAlert;
+
+alertTypeRelation sub relation,
+   relates hasAlertInstance,
+   relates isOfAlertType;
+
+InternalAlertReference sub attribute,
+   datatype string;
+
+alert_type sub entity,
+   has AlertName,
+   plays isOfAlertType;
+
+AlertName sub attribute,
+   datatype string;
+
+alertDirectRelationPair sub relation,
+   relates errorneousAspectValue;
+

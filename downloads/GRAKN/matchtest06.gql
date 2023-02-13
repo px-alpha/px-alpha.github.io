@@ -1,0 +1,45 @@
+# test for match for alert rule
+
+match
+
+  (hasproperty: $a1, defines: $spo1, ispropertytype: $ptype1) isa property;
+  $a1 has aspect_data_value $adv1;
+  $a1 has internal_reference $intref1;
+  $ptype1 has aspect_name $aname1;
+  (representedby: $spo1, represents: $po1, hasrepresentingsystem: $sys1) isa representation;
+  $po1 has ident $po_ident1;
+  $spo1 has name $spo1name;
+  $sys1 has sysname $sysname1;
+  
+
+  (hasproperty: $a2, defines: $spo2, ispropertytype: $ptype2) isa property;
+  $a2 has aspect_data_value $adv2;
+  $a2 has internal_reference $intref2;
+  $ptype2 has aspect_name $aname2;
+  (representedby: $spo2, represents: $po2, hasrepresentingsystem: $sys2) isa representation;
+  $po2 has ident $po_ident2;
+  $spo2 has name $spo2name;
+  $sys2 has sysname $sysname2;
+  
+  $po_ident1 == $po_ident2;
+  $aname1 == $aname2 ; # dit werkt wel, de property van het object gelijkstellen
+  # $ptype1 == $ptype2 ; # note: dit werkt niet, je kan niet het object gelijkstellen!
+  $adv1 != $adv2 ;
+  $spo1name != $spo2name ;
+  
+get $adv1, $adv2, $sysname1, $sysname2, $po_ident1, $po_ident2, $intref1, $intref2;
+
+
+# resultaat:
+
+# {$po_ident1 "1234ABCD" isa ident; $adv2 "FE360" isa aspect_data_value; $po_ident2 "1234ABCD" isa ident; $adv1 "FE3610" isa aspect_data_value; $sysname2 "E3D" isa sysname; $sysname1 "COMOS" isa sysname;}
+# {$po_ident1 "1234ABCD" isa ident; $adv2 "FE3610" isa aspect_data_value; $po_ident2 "1234ABCD" isa ident; $adv1 "FE360" isa aspect_data_value; $sysname2 "COMOS" isa sysname; $sysname1 "E3D" isa sysname;}
+# {$po_ident1 "3456ABCD" isa ident; $adv2 "FE371" isa aspect_data_value; $po_ident2 "3456ABCD" isa ident; $adv1 "FE370" isa aspect_data_value; $sysname2 "COMOS" isa sysname; $sysname1 "E3D" isa sysname;}
+# {$po_ident1 "3456ABCD" isa ident; $adv2 "FE371" isa aspect_data_value; $po_ident2 "3456ABCD" isa ident; $adv1 "FE360" isa aspect_data_value; $sysname2 "COMOS" isa sysname; $sysname1 "SAPPDM" isa sysname;}
+# {$po_ident1 "3456ABCD" isa ident; $adv2 "FE370" isa aspect_data_value; $po_ident2 "3456ABCD" isa ident; $adv1 "FE371" isa aspect_data_value; $sysname2 "E3D" isa sysname; $sysname1 "COMOS" isa sysname;}
+# {$po_ident1 "3456ABCD" isa ident; $adv2 "FE370" isa aspect_data_value; $po_ident2 "3456ABCD" isa ident; $adv1 "FE360" isa aspect_data_value; $sysname2 "E3D" isa sysname; $sysname1 "SAPPDM" isa sysname;}
+# {$po_ident1 "3456ABCD" isa ident; $adv2 "FE360" isa aspect_data_value; $po_ident2 "3456ABCD" isa ident; $adv1 "FE371" isa aspect_data_value; $sysname2 "SAPPDM" isa sysname; $sysname1 "COMOS" isa sysname;}
+# {$po_ident1 "3456ABCD" isa ident; $adv2 "FE360" isa aspect_data_value; $po_ident2 "3456ABCD" isa ident; $adv1 "FE370" isa aspect_data_value; $sysname2 "SAPPDM" isa sysname; $sysname1 "E3D" isa sysname;}
+
+# probleem is dat het verschil steeds twee keer voor komt, van a->b en van b->a
+# en dat komt omdat we met twee sets werken aan het begin.

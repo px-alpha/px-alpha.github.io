@@ -1,0 +1,282 @@
+
+match $p isa system; delete $p;
+
+insert $p isa system, has sysname "COMOS";
+insert $p isa system, has sysname "E3D";
+insert $p isa system, has sysname "SAPPDM";
+
+match $p isa plantobject; delete $p;
+
+insert $p isa plantobject, has ident "1234ABCD";
+insert $p isa plantobject, has ident "3456ABCD";
+insert $p isa plantobject, has ident "7890ABCD";
+insert $p isa plantobject, has ident "5690ABCD";
+
+match $p isa sysplantobject; delete $p;
+
+insert $p isa sysplantobject, has name "2345-1234-3455";
+insert $p isa sysplantobject, has name "2222-1234-3455";
+insert $p isa sysplantobject, has name "3333-1234-3455";
+insert $p isa sysplantobject, has name "4444-1234-3455";
+insert $p isa sysplantobject, has name "5555-1234-3455";
+insert $p isa sysplantobject, has name "6666-1234-3455";
+
+match $p isa representation; delete $p;
+
+match
+  $sys isa system, has sysname "COMOS";
+  $sysplantobj isa sysplantobject, has name "2345-1234-3455";
+  $plantobject isa plantobject, has ident "1234ABCD";
+insert  $new-representation (represents: $plantobject, representedby: $sysplantobj, hasrepresentingsystem: $sys) isa representation;
+
+match
+  $sys isa system, has sysname "E3D";
+  $sysplantobj isa sysplantobject, has name "2222-1234-3455";
+  $plantobject isa plantobject, has ident "1234ABCD";
+insert  $new-representation1 (represents: $plantobject, representedby: $sysplantobj, hasrepresentingsystem: $sys) isa representation;
+
+match
+  $sys isa system, has sysname "E3D";
+  $sysplantobj isa sysplantobject, has name "3333-1234-3455";
+  $plantobject isa plantobject, has ident "3456ABCD";
+insert  $new-representation1 (represents: $plantobject, representedby: $sysplantobj, hasrepresentingsystem: $sys) isa representation;
+
+match
+  $sys isa system, has sysname "COMOS";
+  $sysplantobj isa sysplantobject, has name "4444-1234-3455";
+  $plantobject isa plantobject, has ident "3456ABCD";
+insert  $new-representation1 (represents: $plantobject, representedby: $sysplantobj, hasrepresentingsystem: $sys) isa representation;
+
+match
+  $sys isa system, has sysname "SAPPDM";
+  $sysplantobj isa sysplantobject, has name "5555-1234-3455";
+  $plantobject isa plantobject, has ident "3456ABCD";
+insert  $new-representation1 (represents: $plantobject, representedby: $sysplantobj, hasrepresentingsystem: $sys) isa representation;
+
+match $p isa aspect_definition; delete $p;
+
+insert $p isa aspect_definition, has aspect_name "documentnumber", has aspect_description "the corporate document number", has aspect_type "string";
+insert $p isa aspect_definition, has aspect_name "documentrevision", has aspect_description "the corporate document revision", has aspect_type "string";
+insert $p isa aspect_definition, has aspect_name "material", has aspect_description "the material", has aspect_type "string";
+insert $p isa aspect_definition, has aspect_name "type", has aspect_description "the object type according to otc", has aspect_type "string";
+
+
+match $p isa aspect; delete $p;
+
+insert $p isa aspect, has internal_reference "2345-1234-3455-documentnumber", has aspect_data_value "Doc001";
+insert $p isa aspect, has internal_reference "2345-1234-3455-documentrevision", has aspect_data_value "A";
+insert $p isa aspect, has internal_reference "2345-1234-3455-material", has aspect_data_value "FE3610";
+insert $p isa aspect, has internal_reference "2345-1234-3455-type", has aspect_data_value "GlobeValve";
+
+
+insert $p isa aspect, has internal_reference "2222-1234-3455-documentnumber", has aspect_data_value "Doc001";
+insert $p isa aspect, has internal_reference "2222-1234-3455-documentrevision", has aspect_data_value "A";
+insert $p isa aspect, has internal_reference "2222-1234-3455-material", has aspect_data_value "FE360"; 
+insert $p isa aspect, has internal_reference "2222-1234-3455-type", has aspect_data_value "GlobeValve";
+
+insert $p isa aspect, has internal_reference "3333-1234-3455-documentnumber", has aspect_data_value "Doc001";
+insert $p isa aspect, has internal_reference "3333-1234-3455-documentrevision", has aspect_data_value "A";
+insert $p isa aspect, has internal_reference "3333-1234-3455-material", has aspect_data_value "FE371";
+insert $p isa aspect, has internal_reference "3333-1234-3455-type", has aspect_data_value "GlobeValve";
+
+insert $p isa aspect, has internal_reference "4444-1234-3455-documentnumber", has aspect_data_value "Doc001";
+insert $p isa aspect, has internal_reference "4444-1234-3455-documentrevision", has aspect_data_value "A";
+insert $p isa aspect, has internal_reference "4444-1234-3455-material", has aspect_data_value "FE370";
+insert $p isa aspect, has internal_reference "4444-1234-3455-type", has aspect_data_value "GlobeValve";
+
+insert $p isa aspect, has internal_reference "5555-1234-3455-documentnumber", has aspect_data_value "Doc001";
+insert $p isa aspect, has internal_reference "5555-1234-3455-documentrevision", has aspect_data_value "A";
+insert $p isa aspect, has internal_reference "5555-1234-3455-material", has aspect_data_value "FE370";
+insert $p isa aspect, has internal_reference "5555-1234-3455-type", has aspect_data_value "GlobeValve";
+
+insert $p isa aspect, has internal_reference "6666-1234-3455-documentnumber", has aspect_data_value "Doc001";
+insert $p isa aspect, has internal_reference "6666-1234-3455-documentrevision", has aspect_data_value "A";
+insert $p isa aspect, has internal_reference "6666-1234-3455-material", has aspect_data_value "FE360";
+insert $p isa aspect, has internal_reference "6666-1234-3455-type", has aspect_data_value "GlobeValve";
+
+match $p isa property; delete $p;
+
+match
+  $sysplantobject isa sysplantobject, has name "2345-1234-3455";
+  $aspect isa aspect, has internal_reference "2345-1234-3455-documentnumber";
+  $aspectdef isa aspect_definition, has aspect_name "documentnumber";
+insert  $new-property (defines: $sysplantobject, hasproperty: $aspect, ispropertytype: $aspectdef) isa property;
+
+match
+  $sysplantobject isa sysplantobject, has name "2345-1234-3455";
+  $aspect isa aspect, has internal_reference "2345-1234-3455-documentrevision";
+  $aspectdef isa aspect_definition, has aspect_name "documentrevision";
+insert  $new-property (defines: $sysplantobject, hasproperty: $aspect, ispropertytype: $aspectdef) isa property;
+
+match
+  $sysplantobject isa sysplantobject, has name "2345-1234-3455";
+  $aspect isa aspect, has internal_reference "2345-1234-3455-material";
+  $aspectdef isa aspect_definition, has aspect_name "material";
+insert  $new-property (defines: $sysplantobject, hasproperty: $aspect, ispropertytype: $aspectdef) isa property;
+
+match
+  $sysplantobject isa sysplantobject, has name "2345-1234-3455";
+  $aspect isa aspect, has internal_reference "2345-1234-3455-type";
+  $aspectdef isa aspect_definition, has aspect_name "type";
+insert  $new-property (defines: $sysplantobject, hasproperty: $aspect, ispropertytype: $aspectdef) isa property;
+
+
+match
+  $sysplantobject isa sysplantobject, has name "2222-1234-3455";
+  $aspect isa aspect, has internal_reference "2222-1234-3455-documentnumber";
+  $aspectdef isa aspect_definition, has aspect_name "documentnumber";
+insert  $new-property (defines: $sysplantobject, hasproperty: $aspect, ispropertytype: $aspectdef) isa property;
+
+match
+  $sysplantobject isa sysplantobject, has name "2222-1234-3455";
+  $aspect isa aspect, has internal_reference "2222-1234-3455-documentrevision";
+  $aspectdef isa aspect_definition, has aspect_name "documentrevision";
+insert  $new-property (defines: $sysplantobject, hasproperty: $aspect, ispropertytype: $aspectdef) isa property;
+
+match
+  $sysplantobject isa sysplantobject, has name "2222-1234-3455";
+  $aspect isa aspect, has internal_reference "2222-1234-3455-material";
+  $aspectdef isa aspect_definition, has aspect_name "material";
+insert  $new-property (defines: $sysplantobject, hasproperty: $aspect, ispropertytype: $aspectdef) isa property;
+
+match
+  $sysplantobject isa sysplantobject, has name "2222-1234-3455";
+  $aspect isa aspect, has internal_reference "2222-1234-3455-type";
+  $aspectdef isa aspect_definition, has aspect_name "type";
+insert  $new-property (defines: $sysplantobject, hasproperty: $aspect, ispropertytype: $aspectdef) isa property;
+
+
+match
+  $sysplantobject isa sysplantobject, has name "3333-1234-3455";
+  $aspect isa aspect, has internal_reference "3333-1234-3455-documentnumber";
+  $aspectdef isa aspect_definition, has aspect_name "documentnumber";
+insert  $new-property (defines: $sysplantobject, hasproperty: $aspect, ispropertytype: $aspectdef) isa property;
+
+match
+  $sysplantobject isa sysplantobject, has name "3333-1234-3455";
+  $aspect isa aspect, has internal_reference "3333-1234-3455-documentrevision";
+  $aspectdef isa aspect_definition, has aspect_name "documentrevision";
+insert  $new-property (defines: $sysplantobject, hasproperty: $aspect, ispropertytype: $aspectdef) isa property;
+
+match
+  $sysplantobject isa sysplantobject, has name "3333-1234-3455";
+  $aspect isa aspect, has internal_reference "3333-1234-3455-material";
+  $aspectdef isa aspect_definition, has aspect_name "material";
+insert  $new-property (defines: $sysplantobject, hasproperty: $aspect, ispropertytype: $aspectdef) isa property;
+
+match
+  $sysplantobject isa sysplantobject, has name "3333-1234-3455";
+  $aspect isa aspect, has internal_reference "3333-1234-3455-type";
+  $aspectdef isa aspect_definition, has aspect_name "type";
+insert  $new-property (defines: $sysplantobject, hasproperty: $aspect, ispropertytype: $aspectdef) isa property;
+
+
+match
+  $sysplantobject isa sysplantobject, has name "4444-1234-3455";
+  $aspect isa aspect, has internal_reference "4444-1234-3455-documentnumber";
+  $aspectdef isa aspect_definition, has aspect_name "documentnumber";
+insert  $new-property (defines: $sysplantobject, hasproperty: $aspect, ispropertytype: $aspectdef) isa property;
+
+match
+  $sysplantobject isa sysplantobject, has name "4444-1234-3455";
+  $aspect isa aspect, has internal_reference "4444-1234-3455-documentrevision";
+  $aspectdef isa aspect_definition, has aspect_name "documentrevision";
+insert  $new-property (defines: $sysplantobject, hasproperty: $aspect, ispropertytype: $aspectdef) isa property;
+
+match
+  $sysplantobject isa sysplantobject, has name "4444-1234-3455";
+  $aspect isa aspect, has internal_reference "4444-1234-3455-material";
+  $aspectdef isa aspect_definition, has aspect_name "material";
+insert  $new-property (defines: $sysplantobject, hasproperty: $aspect, ispropertytype: $aspectdef) isa property;
+
+match
+  $sysplantobject isa sysplantobject, has name "4444-1234-3455";
+  $aspect isa aspect, has internal_reference "4444-1234-3455-type";
+  $aspectdef isa aspect_definition, has aspect_name "type";
+insert  $new-property (defines: $sysplantobject, hasproperty: $aspect, ispropertytype: $aspectdef) isa property;
+
+
+match
+  $sysplantobject isa sysplantobject, has name "5555-1234-3455";
+  $aspect isa aspect, has internal_reference "5555-1234-3455-documentnumber";
+  $aspectdef isa aspect_definition, has aspect_name "documentnumber";
+insert  $new-property (defines: $sysplantobject, hasproperty: $aspect, ispropertytype: $aspectdef) isa property;
+
+match
+  $sysplantobject isa sysplantobject, has name "5555-1234-3455";
+  $aspect isa aspect, has internal_reference "5555-1234-3455-documentrevision";
+  $aspectdef isa aspect_definition, has aspect_name "documentrevision";
+insert  $new-property (defines: $sysplantobject, hasproperty: $aspect, ispropertytype: $aspectdef) isa property;
+
+match
+  $sysplantobject isa sysplantobject, has name "5555-1234-3455";
+  $aspect isa aspect, has internal_reference "5555-1234-3455-material";
+  $aspectdef isa aspect_definition, has aspect_name "material";
+insert  $new-property (defines: $sysplantobject, hasproperty: $aspect, ispropertytype: $aspectdef) isa property;
+
+match
+  $sysplantobject isa sysplantobject, has name "5555-1234-3455";
+  $aspect isa aspect, has internal_reference "5555-1234-3455-type";
+  $aspectdef isa aspect_definition, has aspect_name "type";
+insert  $new-property (defines: $sysplantobject, hasproperty: $aspect, ispropertytype: $aspectdef) isa property;
+
+
+match
+  $sysplantobject isa sysplantobject, has name "6666-1234-3455";
+  $aspect isa aspect, has internal_reference "6666-1234-3455-documentnumber";
+  $aspectdef isa aspect_definition, has aspect_name "documentnumber";
+insert  $new-property (defines: $sysplantobject, hasproperty: $aspect, ispropertytype: $aspectdef) isa property;
+
+match
+  $sysplantobject isa sysplantobject, has name "6666-1234-3455";
+  $aspect isa aspect, has internal_reference "6666-1234-3455-documentrevision";
+  $aspectdef isa aspect_definition, has aspect_name "documentrevision";
+insert  $new-property (defines: $sysplantobject, hasproperty: $aspect, ispropertytype: $aspectdef) isa property;
+
+match
+  $sysplantobject isa sysplantobject, has name "6666-1234-3455";
+  $aspect isa aspect, has internal_reference "6666-1234-3455-material";
+  $aspectdef isa aspect_definition, has aspect_name "material";
+insert  $new-property (defines: $sysplantobject, hasproperty: $aspect, ispropertytype: $aspectdef) isa property;
+
+match
+  $sysplantobject isa sysplantobject, has name "6666-1234-3455";
+  $aspect isa aspect, has internal_reference "6666-1234-3455-type";
+  $aspectdef isa aspect_definition, has aspect_name "type";
+insert  $new-property (defines: $sysplantobject, hasproperty: $aspect, ispropertytype: $aspectdef) isa property;
+
+# alerttypes
+match $p isa alert_type; delete $p;
+insert $p isa alert_type, has AlertName "AspectValuePairMisMatch";
+insert $p isa alert_type, has AlertName "AspectValueNotAllowed";
+
+# insert predefined alerts
+match $p isa alert; delete $p;
+
+# creation of a paired mismatch alert
+match $p isa alertTypeRelation; delete $p;
+match $p isa alertRelation; delete $p;
+
+match $p isa alertDirectRelationPair; delete $p;
+
+# Insert $new-alert isa alert, has InternalAlertReference "Alert1";
+
+# match
+#    $p isa alert, has InternalAlertReference "Alert1";
+#    $q isa alert_type, has AlertName "AspectValuePairMisMatch";
+# insert $new-alertTypeRelation (hasAlertInstance: $p, isOfAlertType: $q) isa alertTypeRelation;
+
+# match 
+#    $p isa alert, has InternalAlertReference "Alert1";
+#    $aspect isa aspect, has internal_reference "2222-1234-3455-material";
+# insert $new-alertRelation (alertFor: $aspect,  hasAlert: $p) isa alertRelation;
+
+# match 
+#    $p isa alert, has InternalAlertReference "Alert1";
+#    $aspect isa aspect, has internal_reference "2345-1234-3455-material";
+# insert $new-alertRelation (alertFor: $aspect,  hasAlert: $p) isa alertRelation;
+
+# match
+#   $aspect isa aspect, has internal_reference "2222-1234-3455-material";
+#   $alerttype isa alert_type, has Alertname "AspectValuePairMisMatch";
+# insert  $new-alert (isOfType: $alerttype, InternalAlertReference: "Alert1", relatedToSysPlantObjectAspect: $aspect) isa alert;

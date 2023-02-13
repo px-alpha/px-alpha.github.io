@@ -1,0 +1,830 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/atom.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-02-14T14:10:51+01:00</updated><id>http://localhost:4000/</id><title type="html">PX | Alpha</title><subtitle>Digitalization and transformation in projects</subtitle><author><name>Gert-Jan Aaftink</name></author><entry><title type="html">The added value of knowledge graphs in capital projects</title><link href="http://localhost:4000/what%20i%20research/2020/09/25/The-Value-add-of-Knowledge-Graphs-in-capital-projects/" rel="alternate" type="text/html" title="The added value of knowledge graphs in capital projects" /><published>2020-09-25T00:00:00+02:00</published><updated>2020-09-25T00:00:00+02:00</updated><id>http://localhost:4000/what%20i%20research/2020/09/25/The-Value-add%20of%20Knowledge-Graphs-in-capital-projects</id><content type="html" xml:base="http://localhost:4000/what%20i%20research/2020/09/25/The-Value-add-of-Knowledge-Graphs-in-capital-projects/">&lt;blockquote&gt;
+  &lt;p&gt;Value-add of knowledge graphs in capital projects, a new series.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;This will be a speculative explorative article series on the added
+value of knowledge graphs in capital projects.&lt;/p&gt;
+
+&lt;p&gt;Moving forward with true digitalization where sharing is a basic
+ingredient, towards the specific, defining features of knowledge
+graphs, and how we can exploit those to create value in the project
+value chain. This includes the optimal way project (or intercompany)
+vocabularies can be set up, and current practical approaches like
+ICDD, CHIFOS, 3D data conversion to linked data and others.&lt;/p&gt;</content><author><name>Gert-Jan Aaftink</name></author><summary type="html">Value-add of knowledge graphs in capital projects, a new series.</summary></entry><entry><title type="html">On ontologies and graphs</title><link href="http://localhost:4000/what%20i%20think/what%20i%20read/2020/08/30/Ontologies-and-graphs/" rel="alternate" type="text/html" title="On ontologies and graphs" /><published>2020-08-30T00:00:00+02:00</published><updated>2020-08-30T00:00:00+02:00</updated><id>http://localhost:4000/what%20i%20think/what%20i%20read/2020/08/30/Ontologies-and-graphs</id><content type="html" xml:base="http://localhost:4000/what%20i%20think/what%20i%20read/2020/08/30/Ontologies-and-graphs/">&lt;blockquote&gt;
+  &lt;p&gt;Inspiration from an article dating back to 2018. Leading to the value of ontologies and outline for the specific use-cases for knowledge graphs&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;!-- more --&gt;
+
+&lt;h1 id=&quot;about-ontologies-and-graphs-in-the-capital-project-world&quot;&gt;About ontologies and graphs in the capital project world&lt;/h1&gt;
+&lt;p class=&quot;px-article&quot;&gt;The article &lt;a href=&quot;https://opendatascience.com/where-ontologies-end-and-knowledge-graphs-begin/&quot;&gt;Where Ontologies End and Knowledge Graphs
+Begin&lt;/a&gt;
+posted by Spencer Norris, on the &lt;a href=&quot;https://opendatascience.com/&quot;&gt;ODSC
+website&lt;/a&gt; sparked several trains of
+thought, in regard to the main theme of this blog, resulting in no less than three articles about the application of semantic technology in capital projects:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/what%20i%20think/2020/08/30/Does-size-matter/&quot;&gt;Does size (in this case of an ontology) actually matter?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/what%20i%20research/2020/08/30/One-without-the-other/&quot;&gt;Can you have one without the other and still deliver value?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/what%20i%20research/2020/09/25/The-Value-add-of-Knowledge-Graphs-in-capital-projects/&quot;&gt;Value-add of knowledge graphs in capital projects&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;These topics will be discussed in a series of articles. Follow the links to the respective articles to read more about the topics.__&lt;/p&gt;
+
+&lt;p&gt;I’ll include also some introductional material to graphs and ontologies for those not yet familiar with this emerging technology, as I encounter them on the web.&lt;/p&gt;</content><author><name>Gert-Jan Aaftink</name></author><summary type="html">Inspiration from an article dating back to 2018. Leading to the value of ontologies and outline for the specific use-cases for knowledge graphs</summary></entry><entry><title type="html">One without the other</title><link href="http://localhost:4000/what%20i%20research/2020/08/30/One-without-the-other/" rel="alternate" type="text/html" title="One without the other" /><published>2020-08-30T00:00:00+02:00</published><updated>2020-08-30T00:00:00+02:00</updated><id>http://localhost:4000/what%20i%20research/2020/08/30/One-without-the-other</id><content type="html" xml:base="http://localhost:4000/what%20i%20research/2020/08/30/One-without-the-other/">&lt;blockquote&gt;
+  &lt;p&gt;The value of ontologies and graphs in capital projects explained&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;!-- more --&gt;
+
+&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;This article is part of a series of three about 
+&lt;a href=&quot;/what%20i%20think/what%20i%20read/2020/08/30/Ontologies-and-graphs/&quot;&gt;the application of knowledge graps and semantic technology in capital projects&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p class=&quot;px-article&quot;&gt;The
+&lt;a href=&quot;https://opendatascience.com/where-ontologies-end-and-knowledge-graphs-begin/&quot;&gt;article&lt;/a&gt;
+by Spencer Noris brought me back to the time I started with
+semantics. The expert that was supporting us at the time said ‘do not
+bother with ontologies, make a graph as the first thing you do, that
+is where the value is’. And so we did, resulting in a successful project.&lt;/p&gt;
+
+&lt;p&gt;This article discusses the value of ontologies, knowledge graphs and the combination of both in
+capital projects, determining business values and promising options.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-value-of-an-ontology-in-capital-projects&quot;&gt;The value of an ontology in capital projects&lt;/h2&gt;
+&lt;p&gt;I’m more into ontologies right now then in the mentioned past, and encountered in the recent past
+the question: “what is the actual business value of a ontology in a
+capital project environment?”. And given the fact that a significant
+amount of work in that project had been done on the ontology , it was
+surprising that finding the answer the question was quite hard.&lt;/p&gt;
+
+&lt;p&gt;Of course the usual aswers came up: the standard/unifying language that is
+created by the ontology. But then: standard for who? Is there actually
+something of a common understanding between project parties where a
+common language make sense?&lt;/p&gt;
+
+&lt;h3 id=&quot;the-standard-language-argument&quot;&gt;The standard language argument&lt;/h3&gt;
+&lt;p&gt;In general ontologies are a way to describe the structure of the
+reality in a domain of interest. In capital projects that quickly
+results in a taxonomy of the typical components used. The taxonomy can
+be structured along a system decomposition, a functional decomposition
+or other decompositions. Axamples in the capital project domain are powerplants that can be
+subclassed in single shaft plants and multishaft plants, bridges that
+can be subclassed as fixed bridges and bridges that can open and
+close. And then, of course this sub-classing mechanism is followed in the ontology down to a
+certain level of detail.&lt;/p&gt;
+
+&lt;p&gt;There are topics of interest with this approach:
+  1) The added value of this activity
+  2) The probability of actually succeeding in creating a detailled ontology that works for all parties in the project.&lt;/p&gt;
+
+&lt;h4 id=&quot;the-added-value&quot;&gt;The added value&lt;/h4&gt;
+&lt;p&gt;Most project partners are selected because of their knowledge of the
+project components that they work on. They will know what kind of bridge is being
+build, and are, to all intents and purposes, likely to be more knowledgeable about bridges
+then the owner/contractor is. In that case there is little value in constructing
+a project ontology. 2D plans (and now also 3D models) have for many
+years served a perfectly clear and regulated way of expressing the
+structure of a product including the knowledge behind the
+product (like how assemblies are defined). 
+I argue that he added value of an ontology in these situations is
+limited.&lt;/p&gt;
+
+&lt;h4 id=&quot;achieving-a-common-detailled-ontology&quot;&gt;Achieving a common detailled ontology&lt;/h4&gt;
+&lt;p&gt;Ontologies are about decomposing  general concepts in more
+detailled concepts. In the above example the ontology would contain a
+bridge, which is sub-classed or broken down to more specific kinds of
+bridges: fixed bridges and bridges that can open and close.&lt;/p&gt;
+
+&lt;p&gt;In earlier work in corporate envirnments I found that there are actually many of these decomposition trees, depending on the project phase:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;In basic design, the functional breakdown often is a starting point,&lt;/li&gt;
+  &lt;li&gt;In detail design a systems breakdown is usually followed&lt;/li&gt;
+  &lt;li&gt;In purchasing the main division was in this case sub-contracts and bought out items&lt;/li&gt;
+  &lt;li&gt;In shipping a division in break bulk material (things that you directly put in the holding area of a ship) and container shipping is the main division&lt;/li&gt;
+  &lt;li&gt;In construction both the workbreak down structure on site and the machine breakdown are used&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;As a result information is reworked in every phase. The reason to actually do that is that the proces-step specific structure is an optimisation for that step.&lt;/p&gt;
+
+&lt;p&gt;Another that I learned is that project parties usually create their
+own breakdown structures anyway, because of their specific products:
+to them more detailled breakdowns are relevant (because they are
+concerned with them) compared to other parties in the project.&lt;/p&gt;
+
+&lt;p&gt;Given both observations I argue that the idea that a complete common language can be created is a little naive.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-value-of-just-an-ontology&quot;&gt;The value of just an ontology&lt;/h2&gt;
+&lt;p&gt;Basically the conclusion here is clear, an ontology on it’s own has
+limited value. It’s only of some value to the organisation creating
+it, however there the concepts in general are well known, and, given
+the difference in the view on the products or parts of the project by
+the different partners, a common one is not an easy task, if it can be
+achieved at all.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-value-of-a-knowledge-graph&quot;&gt;The value of a knowledge graph&lt;/h2&gt;
+&lt;p&gt;When made without an ontology a graph can still have significant
+value. When the thing you want to do is just use the graph for an
+application that shows integrated information about project components
+(the successful use case I mentionend above), a graph delivers
+immediate value.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-combined-value&quot;&gt;The combined value&lt;/h2&gt;
+&lt;p&gt;Combining a graph with an ontology creates additional value, as the
+ontology is the key to the knowledge aspect of the knowledge
+graph. Adding meaning to the data in the graph maximizes the
+probability that the data in the graph can be understood by multiple
+parties. As such, it is the way forward when using semantic data to
+exchange information between project parties. However to do that
+efficiently there is somewhat a bit more to that picture. Read more
+about that in an upcoming article about: so you have a graph, but how
+exchange information with it?&lt;/p&gt;</content><author><name>Gert-Jan Aaftink</name></author><category term="GRAKN," /><category term="applied" /><category term="semantic" /><category term="technology" /><summary type="html">The value of ontologies and graphs in capital projects explained</summary></entry><entry><title type="html">Does ontology size matter?</title><link href="http://localhost:4000/what%20i%20think/2020/08/30/Does-size-matter/" rel="alternate" type="text/html" title="Does ontology size matter?" /><published>2020-08-30T00:00:00+02:00</published><updated>2020-08-30T00:00:00+02:00</updated><id>http://localhost:4000/what%20i%20think/2020/08/30/Does-size-matter</id><content type="html" xml:base="http://localhost:4000/what%20i%20think/2020/08/30/Does-size-matter/">&lt;blockquote&gt;
+  &lt;p&gt;Is there an optimal size for ontologies?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;!-- more --&gt;
+
+&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt;
+
+&lt;p&gt;This article is part of a series of three about &lt;a href=&quot;/what%20i%20think/what%20i%20read/2020/08/30/Ontologies-and-graphs/&quot;&gt;the application of knowledge graps and semantic technology in capital projects&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p class=&quot;px-article&quot;&gt;Recently I worked on an ontology that was used in capital projects for
+asset management. It’s size (measured in classes): 23.000, or in 
+disk size: approx. 3 Mb of OWL data. This ontology was used to describe
+acreage objects. Some time ago I did
+some work on the ISO 15926 ontology, which (if I remember correctly)
+is in the range of just several hundreds of classes. The ‘world’ that is
+described by the ISO 15926 ontology is vastly more complex that the
+asset management use-case. A striking difference in size and content,
+but… does that matter?&lt;/p&gt;
+
+&lt;h1 id=&quot;does-size-matter&quot;&gt;Does size matter?&lt;/h1&gt;
+&lt;p&gt;Well, it depends. As Spencer Norris mentions in his
+&lt;a href=&quot;https://opendatascience.com/where-ontologies-end-and-knowledge-graphs-begin/&quot;&gt;article&lt;/a&gt;
+there are big ontologies that deliver value to the users, most noticeably
+the gene ontology, which in size is even significantly bigger than the ontology
+mentioned previously. So. it’s not sheer size alone that determines
+the usability of an ontology.&lt;/p&gt;
+
+&lt;p&gt;What you actually want to do with it makes the difference. If
+reasoning over a data set is a target, then (as Norris mentions)
+ontologies are your friend, as they deliver a mathematically correct
+representation of the data, and allow reasoning.&lt;/p&gt;
+
+&lt;p&gt;If all you want to do is deliver information about objects in a domain,
+ontologies still help, but the bigger the ontology gets, the more
+difficult the understanding becomes.&lt;/p&gt;
+
+&lt;p&gt;In the specific case of capital projects, where limited time-frames are
+a fact of life, the difficulty of large ontologies actually works against value
+delivery. And as there is no actual need for sophisticated reasoning
+(in this use-case the ontology is was used to create a standard
+language between project partners), the size of the ontology is reason
+for concern. Keeping the ontology simple helps to quickly understand and work with
+it, which is a business target in capital project cases.&lt;/p&gt;
+
+&lt;h1 id=&quot;analysis&quot;&gt;Analysis&lt;/h1&gt;
+&lt;p&gt;The reason for the excessive size of the ontology was the amount of
+things that were crammed into it. Whereas ISO 15926 divides the
+ontology in two main elements:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;a relatively small top ontology and&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;a relatively sizable reference description library, the asset management
+ontology contained both. Apart from that domain knowledge was also
+part of the ontology. Most notably the definition of the assembly
+rules of certain classes. It contained rules like this class is an
+assembly of a series of classes to describe the assembly of physical objects. To define that with only OWL as a
+language requires surprisingly large amount of intermediate classes and domain/range rules.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The actual origin for the complex set-up was found in the fact that
+the ontology itself was produced out of a separate system, meaning
+that, in the design state these complications where not noted. The
+resulting ontology was used as the unifying language between project
+partners and the owner. The project partners did actually experience
+the complexity resulting in extra costs charged to the owner for
+dealing with the complexity whereas the creating team did not.&lt;/p&gt;
+
+&lt;p&gt;This understanding, combined to the discussion in the &lt;a href=&quot;(% post_url 2020-08-30-One-without-the-other %})&quot;&gt;One without the
+other&lt;/a&gt; article
+quickly leads towards improvement directions.&lt;/p&gt;
+
+&lt;p&gt;In this case a separation between the ontology and the reference description
+library was created to reduce the number of things going into
+the main ontology (this also provided a first step into the direction
+of modularization of the ontology), and the introduction of a knowledge
+graphs as a means to implement the domain rules was a second element
+to reduce the complexity of the ontology.&lt;/p&gt;</content><author><name>Gert-Jan Aaftink</name></author><summary type="html">Is there an optimal size for ontologies?</summary></entry><entry><title type="html">Interesting reads</title><link href="http://localhost:4000/what%20i%20read/2020/08/26/Interesting-reads/" rel="alternate" type="text/html" title="Interesting reads" /><published>2020-08-26T00:00:00+02:00</published><updated>2020-08-26T00:00:00+02:00</updated><id>http://localhost:4000/what%20i%20read/2020/08/26/Interesting-reads</id><content type="html" xml:base="http://localhost:4000/what%20i%20read/2020/08/26/Interesting-reads/">&lt;blockquote&gt;
+  &lt;p&gt;Books, articles and websites&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;Updated every now and then. An excerpt from my Firefox synced bookmarks collection.&lt;/p&gt;
+
+&lt;h2 id=&quot;books&quot;&gt;Books&lt;/h2&gt;
+
+&lt;p class=&quot;px-article&quot;&gt;These books are currently on my reading table.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/software-wasteland.jpg&quot; alt=&quot;Book-image&quot; width=&quot;70&quot; style=&quot;float:left; padding-right: 10px; border-style:none;&quot; /&gt; 
+&lt;strong&gt;Software Wasteland:&lt;/strong&gt; How the Application-Centric Mindset is Hobbling our Enterprises, by Dave McComb&lt;br /&gt;
+An interesting read about the quagmire where enterprise IT is now, and the reasons why it is so complicated to get out of it.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Controlling the Chaos:&lt;/strong&gt; A Functional Framework for Enterprise Architecture and Governance, by Robert Fox&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/978-3-030-53199-7.jpeg&quot; alt=&quot;SpringerVerlagBookImage&quot; width=&quot;70&quot; style=&quot;float:left; padding-right: 10px; border-style:none;&quot; /&gt; 
+&lt;strong&gt;Knowledge Graphs and Big Data Processing:&lt;/strong&gt; by several authors.
+Download the &lt;strong&gt;free&lt;/strong&gt; book &lt;a href=&quot;https://link.springer.com/book/10.1007/978-3-030-53199-7&quot;&gt;here&lt;/a&gt;. A broad survey of state of the art methods and techniques in the area of knowledge graphs and big data. Quite recent, published in 2020.&lt;/p&gt;
+
+&lt;h2 id=&quot;articles&quot;&gt;Articles&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;gist: Buckets, Buckets Everywhere, Who Knows What to Think?&lt;/strong&gt;&lt;br /&gt;
+&lt;a href=&quot;https://www.semanticarts.com/gist-buckets-buckets-everywhere-who-knows-what-to-think/&quot;&gt;A Semantic Arts Article&lt;/a&gt; On Buckets, Collections and Categories, and the way they’re used in &lt;a href=&quot;https://www.semanticarts.com/gist/&quot;&gt;gist&lt;/a&gt;. The separation of the different kinds of buckets is important for everyone working on ontologies.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The intuitions behind Knowledge Graphs and Reasoning&lt;/strong&gt;&lt;br /&gt;
+An
+&lt;a href=&quot;https://towardsdatascience.com/the-intuitions-behind-knowledge-graphs-and-reasoning-59df2f1ad054&quot;&gt;article&lt;/a&gt;
+by Peter Crocker, discussing reasoning approaches in rdf graphs (alike
+the rule approach I discussed in my article ‘&lt;a href=&quot;/what%20i%20research/2020/05/13/A-taste-of-GRAKN/&quot;&gt;A taste of GRAKN&lt;/a&gt;’). Peter discusses RDFox, one
+of the rule technologies avaialble for RDF.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The datacentric revolution&lt;/strong&gt; &lt;br /&gt;
+An
+&lt;a href=&quot;https://tdan.com/the-data-centric-revolution-data-centric-vs-centralization/27207?&quot;&gt;article&lt;/a&gt;
+by Dave McComb, about data integration on similar, but not completely
+equivalant data sources. My upcoming article on RML.io contains a
+practical demonstration of the descibed ideas.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The 10 Vs of Big Data&lt;/strong&gt; &lt;br /&gt;
+An
+&lt;a href=&quot;https://tdwi.org/articles/2017/02/08/10-vs-of-big-data.aspx&quot;&gt;article&lt;/a&gt;
+by George Firican, about characteristics of data in 10 dimensions
+called the 10V’s. Insightful for those who need to explain data
+management approaches.&lt;/p&gt;
+
+&lt;h2 id=&quot;websites&quot;&gt;Websites&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Foundations of Semantic Web Technologies from the TU Dresden&lt;/strong&gt;&lt;br /&gt;
+&lt;a href=&quot;https://iccl.inf.tu-dresden.de/web/Foundations_of_Semantic_Web_Technologies_(SS2017)/en&quot;&gt;Follow this link&lt;/a&gt; and open the Dates and Materials tab. An excellent introduction in
+semantic technologies.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Euclid&lt;/strong&gt;&lt;br /&gt;
+the educational curriculum for the usage of linked data.
+&lt;a href=&quot;http://euclid-project.eu/index.html&quot;&gt;This website&lt;/a&gt; is an excellent
+source of information in regard to linked data usage. Download the
+free book, or browse the information online.&lt;/p&gt;</content><author><name>Gert-Jan Aaftink</name></author><summary type="html">Books, articles and websites</summary></entry><entry><title type="html">The single source of the truth</title><link href="http://localhost:4000/what%20i%20think/2020/05/17/The-Single-Source-Of-The-Truth/" rel="alternate" type="text/html" title="The single source of the truth" /><published>2020-05-17T00:00:00+02:00</published><updated>2020-05-17T00:00:00+02:00</updated><id>http://localhost:4000/what%20i%20think/2020/05/17/The-Single-Source-Of-The-Truth</id><content type="html" xml:base="http://localhost:4000/what%20i%20think/2020/05/17/The-Single-Source-Of-The-Truth/">&lt;blockquote&gt;
+  &lt;p&gt;What happened to the single source of the truth?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;!-- more --&gt;
+
+&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+
+&lt;p class=&quot;px-article&quot;&gt;We’ve all been there. The single source of the truth (or SSOTT). In the
+nineties, or possibly still in the early part of this century. And of
+course it’s appealing: make sure that data is stored only once, so you
+never have to worry about data consistency, synchronization and what
+not. And when you can, you should. Have it I mean. It still is the
+best option if it is available in your specific situation.&lt;/p&gt;
+
+&lt;h2 id=&quot;an-inconvenient-truth&quot;&gt;An inconvenient truth&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/2/20/The_Truth_logo.jpg&quot; alt=&quot;This is not a pipe&quot; style=&quot;float:left; padding-right: 20px;  border-style:none;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In many cases SSOTT is simply not possible anymore. A typical
+situation is IT environments that result from corporate mergers. Often
+the source IT systems are that complex that merging the systems of
+both merging companies is simply too complex to be a viable
+alternative. Another reasons is the current agility of the IT
+landscape that results from cloud adoption and low-code/no-code
+application development tools.  Yet another reason why the SSOTT is
+not achieved originates in the opposite of agility: the aging of the IT
+landscape: companies implement new tools that overlap functionality
+wise with older tools, just to stay competitive. These partly
+overlapping tools also create more than one source of the truth.&lt;/p&gt;
+
+&lt;p&gt;Apart from accepting the fact of multiple sources of the truth (MSOTT)
+and apart from the obvious technical solution of implementing a service bus
+solution to solve that problem, one sometimes sees that a radical
+decision is made to use only one the systems of the merging groups, to
+stay close to the SSOTT principle. That choice is often quite costly
+as well, especially if the other systems that are not the chosen ones,
+contain unique and valuable functionality. Which they often do.&lt;/p&gt;
+
+&lt;p&gt;Another situation where MSOTT is almost unavoidable is in IT based
+design factories, typical for capital projects. There a multitude of applications are used. Basic
+design and detailed design for example usually still require different
+tools to stay competitive in the market. Another reason the often met
+requirement of data delivery in the clients source system format. If
+the supplier decides to continue to use their own design tooling for
+the majority of the work, often a MSOTT situation is unavoidable.&lt;/p&gt;
+
+&lt;h2 id=&quot;multiple-sourced-data-a-reality&quot;&gt;Multiple sourced data: a reality&lt;/h2&gt;
+
+&lt;p&gt;Given the fact that MSOTT data is there, and will be there for some
+time in the future: apart from SSOTT solutions we (architects, system
+designers, integration specialist, working in the capital project environment) need to have the MSOTT tooling in
+our belt as well. Possibly as an in between solution, but probably one
+that will be here some time.&lt;/p&gt;</content><author><name>Gert-Jan Aaftink</name></author><category term="data-strategy" /><summary type="html">What happened to the single source of the truth?</summary></entry><entry><title type="html">A taste of GRAKN</title><link href="http://localhost:4000/what%20i%20research/2020/05/13/A-taste-of-GRAKN/" rel="alternate" type="text/html" title="A taste of GRAKN" /><published>2020-05-13T00:00:00+02:00</published><updated>2020-05-13T00:00:00+02:00</updated><id>http://localhost:4000/what%20i%20research/2020/05/13/A-taste-of-GRAKN</id><content type="html" xml:base="http://localhost:4000/what%20i%20research/2020/05/13/A-taste-of-GRAKN/">&lt;blockquote&gt;
+  &lt;p&gt;Automated rule based discrepancy discovery by adding knowledge rules to an existing data set&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;!-- more --&gt;
+
+&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+
+&lt;p class=&quot;px-article&quot;&gt;A typical situation in current engineering practice is the usage of a
+multitude of tools to perform the design work.  A functional design
+system used to design the basic functional setup of an installation
+followed by a detail design in a 3D CAD system. In this case some of
+the design data will be in both systems (for example the size
+information of pipes etc.). Another example is document (-revision)
+information, where, during to the ongoing engineering work a central
+document management system stores versions of documents created in the
+design tools. There is a real risc that both systems do not ‘agree’ on
+the latest version. In these cases it is essential to be able to check
+for differences, to measure them and to report them, to be able to
+steer on data quality during the engineering process.&lt;/p&gt;
+
+&lt;p&gt;A complicating factor here is that typically engineering objects
+contain many design aspects, and one needs to perform the above check
+for each of these aspects. In this post I will present an approach
+that allows a fully automated check over all design aspects with a
+single knowledge rule, which greatly simplifies the above described
+problem.  One thing to add: the approach described here is part of a
+procedure for which we filed for a patent, so when interested, please
+contact me for an update on the usage conditions.&lt;/p&gt;
+
+&lt;p&gt;The main reason to research and write this article was that, at the
+time we came up with the idea, we were sure that this could work. Due
+to production pressure we did not have the time to actually test
+it. And the question stayed in the back of my mind for some
+years. Reading about GRAKN, I was reminded of the the unanswered
+question, and decided to see I could actually make this work. And…spoiler
+alert: yes: it actually does.&lt;/p&gt;
+
+&lt;h2 id=&quot;grakn&quot;&gt;GRAKN&lt;/h2&gt;
+
+&lt;p&gt;GRAKN is not that well known, so a short introduction here makes
+sense. GRAKN is an open-source, distributed knowledge graph for
+knowledge-oriented systems. It is an evolution of the relational
+database for highly interconnected data as it provides a concept-level
+schema that fully implements the Entity-Relationship (ER)
+model. However, GRAKN’s schema is also type system that implements the
+principles of knowledge representation and reasoning. (source:
+Wikipedia: https://en.wikipedia.org/wiki/GRAKN.AI). It’s the knowledge
+representation and reasoning that sets it apart. The representation is
+most accomplished through the GRAKN workbench, which, even though
+currently limited, already is an indispensable tool to enable a quick
+look at the stored information structure.&lt;/p&gt;
+
+&lt;p&gt;The reasoning capability is what made GRAKN interesting as a research topic to
+me. GRAKN has the ability to virtually add data to the graph based on
+rules, that you can define at any moment. This separates it from
+reasoning in most RDFS approaches, where the reasoning is done during
+ingress. This feature truly helps in adding meaning and knowledge to
+existing data, which we will see in the rest of this article.&lt;/p&gt;
+
+&lt;p&gt;If you are interested in the GRAKN environment itself: &lt;a href=&quot;https://grakn.ai/&quot;&gt;this&lt;/a&gt; is a good place to start.&lt;/p&gt;
+
+&lt;h2 id=&quot;outline-of-this-article&quot;&gt;Outline of this article&lt;/h2&gt;
+
+&lt;p&gt;As stated in the introduction, the use-case
+has to do which multi-sourced data and the typical data quality
+processes around it. These are typical topics is today’s multi system
+design factories. What I will show first is the creation of the base
+data structure that describes a typical data set. Then, I’ll show how to load data
+into that set. This wille be some made up data, just to indicate the
+typical data. In a real life example of course this data will come
+from some kind of extraction program that gets it from the
+typical engineering systems.&lt;/p&gt;
+
+&lt;p&gt;After this step I’ll show the the way I engineered the rule. Finally
+this rule will be loaded in the data set, and I’ll show how we can measure
+the quality of the multi sourced data.&lt;/p&gt;
+
+&lt;p&gt;The main idea of data quality measuring is something that needs some
+explanation. The usual approach to this is to run some kind of rules
+or scripts over the data as is, to count the number of times that data
+that is not according to the rules. The approach here
+is different: using the rule system we &lt;em&gt;add&lt;/em&gt; virtual data to the data
+set that indicates the erroneous data. A typical example is the
+situation where two systems contain the same object, but have
+different values for a given attribute. In that case a typed relation
+will be created between the two attributes that points out the
+difference. Measuring data quality in this case means just counting
+the number of these typed relations.  This is 
+attractive because, based on the way the data is structured, the
+creation of the type relations can be done for all attributes in one
+go, thus greatly simplifying the entire process. A second positive
+aspect is that, by identifying the erroneous information in this way
+the ‘repair’ process is also simplified: it is quite easy to point
+the user to the problem objects in follow-up steps.&lt;/p&gt;
+
+&lt;p&gt;As a side note, and for all of you coming up with the ‘What happened to
+the single source of the truth solution for this problem?’ question:
+please see my &lt;a href=&quot;/what%20i%20think/2020/05/17/The-Single-Source-Of-The-Truth/&quot;&gt;article&lt;/a&gt; on that
+topic. There is a case for this plan of attack as well.&lt;/p&gt;
+
+&lt;h2 id=&quot;introducing&quot;&gt;Introducing&lt;/h2&gt;
+&lt;p&gt;I’ll introduce the main players first: meet the data structure and the sample data-set.&lt;/p&gt;
+
+&lt;h3 id=&quot;data-structure&quot;&gt;Data structure&lt;/h3&gt;
+
+&lt;p&gt;The data structure is made up out of 5 typical data elements and some
+data relations that are encountered in typical plant design processes.&lt;/p&gt;
+
+&lt;h4 id=&quot;plantobject&quot;&gt;PlantObject&lt;/h4&gt;
+
+&lt;p&gt;A PlantObject is a something on a plant. Typical examples: pipe, pumps
+et cetera. For the model presented here, the PlantObject is
+represented only by an Identification code. In real world situations
+things like life-cycle information would probably also be a part of
+this part of the structure. However for our current example that is of
+no importance here, hence I’m not including any of that.&lt;/p&gt;
+
+&lt;p&gt;The GRAKN code for this is:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;2&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;3&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;4&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;5&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;6&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;n&quot;&gt;plantobject&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;sub&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;entity&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;   &lt;span class=&quot;n&quot;&gt;plays&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;represents&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;   &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ident&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;span class=&quot;n&quot;&gt;ident&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;sub&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;attribute&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;   &lt;span class=&quot;n&quot;&gt;datatype&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;It basically introduces the PlantObject as a subclass from entity
+(which is the base class, much alike the Thing class in RDFS), states
+that it has a property ident, and that it can play a role in a
+relation, in which case it plays the role represents (more on this
+later). The ident attribute is then defined as a string. In real life
+situations probably some extension of the definition would be useful,
+like the declaration that the string has to be unique. However, for
+the sake of conciseness I’ll discard that topic for now.&lt;/p&gt;
+
+&lt;h4 id=&quot;sysplantobject-and-system&quot;&gt;SysPlantObject and System&lt;/h4&gt;
+
+&lt;p&gt;The next objects types introduced are the SysPlantObject and the
+System object.  Remember, in our example we expect the same data to be
+in multiple systems. The System object represents these
+systems. Example values could be values could be COMOS, E3D,
+Microstation et cetera, tools you would typically find in a
+plantdesign environment. The SysPlantObject is the pointer to the
+system specific representation of the PlantObject. So here we would
+find the PlantObject in the system specific version. Typically, here
+the expectation is that these objects in the system have the same
+identification, however in our data set they also have a specific code
+(name) to be able to identify them. The definition code is like this:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;2&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;3&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;4&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;5&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;6&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;7&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;8&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;9&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;10&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;11&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;12&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;13&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;14&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;15&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;16&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;17&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;18&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;19&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;20&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;n&quot;&gt;sysplantobject&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;sub&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;entity&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;   &lt;span class=&quot;n&quot;&gt;plays&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;representedby&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;   &lt;span class=&quot;n&quot;&gt;plays&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;defines&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;   &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;   &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;description&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;sub&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;attribute&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;   &lt;span class=&quot;n&quot;&gt;datatype&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;span class=&quot;n&quot;&gt;description&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;sub&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;attribute&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;   &lt;span class=&quot;n&quot;&gt;datatype&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;span class=&quot;nb&quot;&gt;system&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;sub&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;entity&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;   &lt;span class=&quot;n&quot;&gt;plays&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;hasrepresentingsystem&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;   &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sysname&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;span class=&quot;n&quot;&gt;representation&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;sub&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;relation&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;   &lt;span class=&quot;n&quot;&gt;relates&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;representedby&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;   &lt;span class=&quot;n&quot;&gt;relates&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;represents&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;   &lt;span class=&quot;n&quot;&gt;relates&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;hasrepresentingsystem&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;A new element here is the representation relation. It states that
+there is a three way relation between system, PlantObject and
+Sysplantobject. the roles of the relation (the representedby,
+represents, hasrepresentingsystem) are used to identify the
+objects types that can be part of the relation, see for example the
+PlantObject that take part in the represents role).&lt;/p&gt;
+
+&lt;p&gt;This part of the structure now looks like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/Structure1.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now that we have the SysPlantObject, representing PlantObject in a
+certain system, the next step is to add the attributes that we (later)
+want to check. For naming those I’m following the names used in the
+original book about Industrial ontologies: “Gellish, a generic
+extensible ontological language”, by Andries van Renssen. In that book
+these attributes are called aspects. Our code to add them to the structure is:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;2&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;3&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;4&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;5&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;6&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;7&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;8&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;9&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;10&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;11&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;12&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;13&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;14&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;15&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;16&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;17&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;18&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;19&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;20&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;21&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;22&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;23&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;24&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;25&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;26&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;27&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;28&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;29&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;30&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;31&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;n&quot;&gt;aspect_definition&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;sub&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;entity&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;    &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;aspect_name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;    &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;aspect_description&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;    &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;aspect_type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;    &lt;span class=&quot;n&quot;&gt;plays&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ispropertytype&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;span class=&quot;n&quot;&gt;aspect&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;sub&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;entity&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;    &lt;span class=&quot;n&quot;&gt;plays&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;hasproperty&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;    &lt;span class=&quot;n&quot;&gt;plays&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;errorneousAspectValue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;    &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;internal_reference&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;    &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;aspect_data_value&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;span class=&quot;n&quot;&gt;property&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;sub&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;relation&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;   &lt;span class=&quot;n&quot;&gt;relates&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;hasproperty&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;   &lt;span class=&quot;n&quot;&gt;relates&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ispropertytype&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;   &lt;span class=&quot;n&quot;&gt;relates&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;defines&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;span class=&quot;n&quot;&gt;aspect_name&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;sub&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;attribute&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;   &lt;span class=&quot;n&quot;&gt;datatype&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;span class=&quot;n&quot;&gt;aspect_description&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;sub&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;attribute&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;   &lt;span class=&quot;n&quot;&gt;datatype&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;span class=&quot;n&quot;&gt;aspect_type&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;sub&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;attribute&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;   &lt;span class=&quot;n&quot;&gt;datatype&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;span class=&quot;n&quot;&gt;aspect_data_value&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;sub&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;attribute&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;   &lt;span class=&quot;n&quot;&gt;datatype&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;span class=&quot;n&quot;&gt;internal_reference&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;sub&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;attribute&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;   &lt;span class=&quot;n&quot;&gt;datatype&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;So we’re first creating an aspect definition entity, and it is this
+definition that allows us to handle all aspects (all attribute
+types) in the same way (this where the entire Proof of Concept relies
+on).  The definition has a name (which has to be unique, but what we
+do not enforce in this example), it has a description, it has a type
+(what is meant is the datatype like string or real, et cetera) and finally it can play the role of
+property type in the relation that links an aspect to a
+sysplantobject.&lt;/p&gt;
+
+&lt;p&gt;The next thing to define is the actual aspect (this is where we define
+the value of the design aspect). It is tied to the relation that links
+the aspect definition to the sysplantobject, thereby enabling to add a
+value to an aspect definition that is a property of a sysplantobject.&lt;/p&gt;
+
+&lt;p&gt;After that the definitions of the attributes used in this part are defined.&lt;/p&gt;
+
+&lt;p&gt;This part of the schema now looks like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/Structure2c.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Then finally we’re coming the actual indication that there’s a pair of
+aspects that should be the same, is actually different. For this a
+simple relation is created:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;2&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;n&quot;&gt;alertDirectRelationPair&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;sub&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;relation&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;   &lt;span class=&quot;n&quot;&gt;relates&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;errorneousAspectValue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;This creates a relation is an alert for a two paired aspect values
+that are incorrect. It is the aspect that can play this role, as
+defined earlier (it plays the errorneousAspectValue role). Not that there is no reason to declare the two sides
+of the relation separately, even though they will link to different
+aspects. It is possible for each link of a relation to be used
+multiple times in a single relation instance.&lt;/p&gt;
+
+&lt;p&gt;Finally the entire schema looks like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/Structure3.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;sample-data&quot;&gt;Sample data&lt;/h3&gt;
+
+&lt;p&gt;In this section I’ll discuss the actual insertion of the data in the GRAKN graph. The data is
+specifically created to illustrate the proof of the concept, so real
+data will definitely look different. However the indicated principle
+will in apply in use cases like this.&lt;/p&gt;
+
+&lt;p&gt;The source file for the data is available for download, see below in the download section.&lt;/p&gt;
+
+&lt;p&gt;In general there is a sequence of first deleting a object type, and
+then inserting it, this helped in reloading the data during development of this example.&lt;/p&gt;
+
+&lt;p&gt;The systems, PlantObject and SysPlantObject are loaded:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;2&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;3&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;4&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;5&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;6&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;7&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;8&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;9&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;10&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;11&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;12&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;13&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;14&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;15&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;16&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;17&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;18&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;19&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;20&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;21&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;n&quot;&gt;match&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$p&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;isa&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;system&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;delete&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$p&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;span class=&quot;n&quot;&gt;insert&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$p&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;isa&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;system&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sysname&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;COMOS&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;span class=&quot;n&quot;&gt;insert&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$p&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;isa&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;system&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sysname&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;E3D&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;span class=&quot;n&quot;&gt;insert&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$p&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;isa&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;system&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sysname&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;SAPPDM&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;span class=&quot;n&quot;&gt;match&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$p&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;isa&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;plantobject&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;delete&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$p&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;span class=&quot;n&quot;&gt;insert&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$p&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;isa&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;plantobject&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ident&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;1234ABCD&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;span class=&quot;n&quot;&gt;insert&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$p&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;isa&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;plantobject&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ident&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;3456ABCD&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;span class=&quot;n&quot;&gt;insert&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$p&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;isa&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;plantobject&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ident&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;7890ABCD&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;span class=&quot;n&quot;&gt;insert&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$p&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;isa&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;plantobject&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ident&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;5690ABCD&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;span class=&quot;n&quot;&gt;match&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$p&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;isa&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sysplantobject&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;delete&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$p&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;span class=&quot;n&quot;&gt;insert&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$p&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;isa&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sysplantobject&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;2345-1234-3455&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;span class=&quot;n&quot;&gt;insert&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$p&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;isa&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sysplantobject&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;2222-1234-3455&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;span class=&quot;n&quot;&gt;insert&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$p&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;isa&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sysplantobject&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;3333-1234-3455&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;span class=&quot;n&quot;&gt;insert&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$p&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;isa&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sysplantobject&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;4444-1234-3455&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;span class=&quot;n&quot;&gt;insert&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$p&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;isa&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sysplantobject&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;5555-1234-3455&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;span class=&quot;n&quot;&gt;insert&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$p&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;isa&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sysplantobject&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;6666-1234-3455&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Then a series of representations is loaded:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;2&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;3&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;4&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;5&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;6&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;7&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;8&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;9&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;n&quot;&gt;match&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$p&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;isa&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;representation&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;delete&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$p&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;span class=&quot;n&quot;&gt;match&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;  &lt;span class=&quot;vg&quot;&gt;$sys&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;isa&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;system&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sysname&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;COMOS&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;  &lt;span class=&quot;vg&quot;&gt;$sysplantobj&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;isa&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sysplantobject&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;2345-1234-3455&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;  &lt;span class=&quot;vg&quot;&gt;$plantobject&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;isa&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;plantobject&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ident&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;1234ABCD&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;span class=&quot;n&quot;&gt;insert&lt;/span&gt;  &lt;span class=&quot;vg&quot;&gt;$new&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;representation&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;represents: &lt;/span&gt;&lt;span class=&quot;vg&quot;&gt;$plantobject&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;representedby: &lt;/span&gt;&lt;span class=&quot;vg&quot;&gt;$sysplantobj&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;hasrepresentingsystem: &lt;/span&gt;&lt;span class=&quot;vg&quot;&gt;$sys&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;isa&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;representation&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;span class=&quot;o&quot;&gt;....&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;They indicate the representations of the plant objects in the mentioned systems&lt;/p&gt;
+
+&lt;p&gt;Then, the design aspects are defined:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;2&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;3&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;4&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;5&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;6&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;7&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;8&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;n&quot;&gt;match&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$p&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;isa&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;aspect&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;delete&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$p&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;span class=&quot;n&quot;&gt;insert&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$p&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;isa&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;aspect&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;internal_reference&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;2345-1234-3455-documentnumber&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;aspect_data_value&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Doc001&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;span class=&quot;n&quot;&gt;insert&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$p&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;isa&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;aspect&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;internal_reference&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;2345-1234-3455-documentrevision&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;aspect_data_value&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;A&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;span class=&quot;n&quot;&gt;insert&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$p&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;isa&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;aspect&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;internal_reference&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;2345-1234-3455-material&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;aspect_data_value&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;FE3610&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;span class=&quot;n&quot;&gt;insert&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$p&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;isa&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;aspect&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;internal_reference&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;2345-1234-3455-type&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;aspect_data_value&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;GlobeValve&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;span class=&quot;o&quot;&gt;....&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;After this, the aspects are linked to the representing sysplantobjects as properties:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;2&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;3&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;4&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;5&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;6&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;7&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;8&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;n&quot;&gt;match&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$p&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;isa&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;property&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;delete&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$p&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;span class=&quot;n&quot;&gt;match&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;  &lt;span class=&quot;vg&quot;&gt;$sysplantobject&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;isa&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sysplantobject&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;2345-1234-3455&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;  &lt;span class=&quot;vg&quot;&gt;$aspect&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;isa&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;aspect&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;internal_reference&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;2345-1234-3455-documentnumber&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;  &lt;span class=&quot;vg&quot;&gt;$aspectdef&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;isa&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;aspect_definition&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;aspect_name&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;documentnumber&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;span class=&quot;n&quot;&gt;insert&lt;/span&gt;  &lt;span class=&quot;vg&quot;&gt;$new&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;property&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;defines: &lt;/span&gt;&lt;span class=&quot;vg&quot;&gt;$sysplantobject&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;hasproperty: &lt;/span&gt;&lt;span class=&quot;vg&quot;&gt;$aspect&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;ispropertytype: &lt;/span&gt;&lt;span class=&quot;vg&quot;&gt;$aspectdef&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;isa&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;property&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;span class=&quot;o&quot;&gt;....&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Everything else in the insert files can be ignored, these are remains of earlier experiments.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-rule&quot;&gt;The Rule&lt;/h3&gt;
+&lt;p&gt;For the rule to work I’ve added some inconsistencies in the loaded data-set:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;2&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;3&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;4&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;5&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;6&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;7&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;8&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;9&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;10&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;11&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;12&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;13&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;14&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;15&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;16&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;17&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;18&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;19&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;20&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;21&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;22&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;23&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;24&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;25&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;26&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;27&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;28&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;29&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;n&quot;&gt;insert&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$p&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;isa&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;aspect&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;internal_reference&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;2345-1234-3455-documentnumber&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;aspect_data_value&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Doc001&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;span class=&quot;n&quot;&gt;insert&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$p&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;isa&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;aspect&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;internal_reference&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;2345-1234-3455-documentrevision&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;aspect_data_value&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;A&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;span class=&quot;n&quot;&gt;insert&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$p&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;isa&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;aspect&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;internal_reference&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;2345-1234-3455-material&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;aspect_data_value&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;FE3610&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;span class=&quot;n&quot;&gt;insert&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$p&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;isa&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;aspect&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;internal_reference&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;2345-1234-3455-type&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;aspect_data_value&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;GlobeValve&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;span class=&quot;n&quot;&gt;insert&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$p&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;isa&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;aspect&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;internal_reference&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;2222-1234-3455-documentnumber&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;aspect_data_value&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Doc001&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;span class=&quot;n&quot;&gt;insert&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$p&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;isa&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;aspect&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;internal_reference&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;2222-1234-3455-documentrevision&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;aspect_data_value&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;A&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;span class=&quot;n&quot;&gt;insert&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$p&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;isa&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;aspect&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;internal_reference&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;2222-1234-3455-material&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;aspect_data_value&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;FE360&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;span class=&quot;n&quot;&gt;insert&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$p&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;isa&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;aspect&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;internal_reference&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;2222-1234-3455-type&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;aspect_data_value&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;GlobeValve&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;span class=&quot;n&quot;&gt;insert&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$p&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;isa&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;aspect&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;internal_reference&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;3333-1234-3455-documentnumber&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;aspect_data_value&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Doc001&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;span class=&quot;n&quot;&gt;insert&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$p&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;isa&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;aspect&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;internal_reference&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;3333-1234-3455-documentrevision&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;aspect_data_value&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;A&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;span class=&quot;n&quot;&gt;insert&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$p&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;isa&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;aspect&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;internal_reference&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;3333-1234-3455-material&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;aspect_data_value&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;FE371&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;span class=&quot;n&quot;&gt;insert&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$p&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;isa&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;aspect&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;internal_reference&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;3333-1234-3455-type&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;aspect_data_value&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;GlobeValve&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;span class=&quot;n&quot;&gt;insert&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$p&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;isa&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;aspect&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;internal_reference&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;4444-1234-3455-documentnumber&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;aspect_data_value&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Doc001&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;span class=&quot;n&quot;&gt;insert&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$p&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;isa&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;aspect&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;internal_reference&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;4444-1234-3455-documentrevision&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;aspect_data_value&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;A&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;span class=&quot;n&quot;&gt;insert&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$p&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;isa&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;aspect&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;internal_reference&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;4444-1234-3455-material&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;aspect_data_value&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;FE370&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;span class=&quot;n&quot;&gt;insert&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$p&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;isa&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;aspect&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;internal_reference&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;4444-1234-3455-type&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;aspect_data_value&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;GlobeValve&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;span class=&quot;n&quot;&gt;insert&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$p&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;isa&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;aspect&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;internal_reference&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;5555-1234-3455-documentnumber&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;aspect_data_value&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Doc001&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;span class=&quot;n&quot;&gt;insert&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$p&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;isa&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;aspect&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;internal_reference&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;5555-1234-3455-documentrevision&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;aspect_data_value&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;A&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;span class=&quot;n&quot;&gt;insert&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$p&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;isa&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;aspect&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;internal_reference&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;5555-1234-3455-material&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;aspect_data_value&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;FE370&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;span class=&quot;n&quot;&gt;insert&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$p&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;isa&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;aspect&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;internal_reference&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;5555-1234-3455-type&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;aspect_data_value&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;GlobeValve&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;span class=&quot;n&quot;&gt;insert&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$p&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;isa&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;aspect&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;internal_reference&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;6666-1234-3455-documentnumber&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;aspect_data_value&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Doc001&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;span class=&quot;n&quot;&gt;insert&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$p&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;isa&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;aspect&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;internal_reference&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;6666-1234-3455-documentrevision&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;aspect_data_value&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;A&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;span class=&quot;n&quot;&gt;insert&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$p&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;isa&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;aspect&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;internal_reference&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;6666-1234-3455-material&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;aspect_data_value&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;FE360&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;span class=&quot;n&quot;&gt;insert&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$p&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;isa&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;aspect&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;internal_reference&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;6666-1234-3455-type&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;aspect_data_value&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;GlobeValve&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Line 3 and 7 show a discrepancy, as do 13 and 18 and 23.&lt;/p&gt;
+
+&lt;p&gt;I’ve developed the rule by first creating a query that returns the erroneous objects:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;2&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;3&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;4&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;5&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;6&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;7&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;8&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;9&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;10&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;11&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;12&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;13&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;14&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;15&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;16&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;17&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;18&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;19&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;20&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;21&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;22&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;23&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;24&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;25&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;26&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;27&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;n&quot;&gt;match&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;hasproperty: &lt;/span&gt;&lt;span class=&quot;vg&quot;&gt;$a1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;defines: &lt;/span&gt;&lt;span class=&quot;vg&quot;&gt;$spo1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;ispropertytype: &lt;/span&gt;&lt;span class=&quot;vg&quot;&gt;$ptype1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;isa&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;property&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;  &lt;span class=&quot;vg&quot;&gt;$a1&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;aspect_data_value&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$adv1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;  &lt;span class=&quot;vg&quot;&gt;$a1&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;internal_reference&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$intref1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;  &lt;span class=&quot;vg&quot;&gt;$ptype1&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;aspect_name&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$aname1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;representedby: &lt;/span&gt;&lt;span class=&quot;vg&quot;&gt;$spo1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;represents: &lt;/span&gt;&lt;span class=&quot;vg&quot;&gt;$po1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;hasrepresentingsystem: &lt;/span&gt;&lt;span class=&quot;vg&quot;&gt;$sys1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;isa&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;representation&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;  &lt;span class=&quot;vg&quot;&gt;$po1&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ident&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$po_ident1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;  &lt;span class=&quot;vg&quot;&gt;$spo1&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$spo1name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;  &lt;span class=&quot;vg&quot;&gt;$sys1&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sysname&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$sysname1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;  &lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;hasproperty: &lt;/span&gt;&lt;span class=&quot;vg&quot;&gt;$a2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;defines: &lt;/span&gt;&lt;span class=&quot;vg&quot;&gt;$spo2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;ispropertytype: &lt;/span&gt;&lt;span class=&quot;vg&quot;&gt;$ptype2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;isa&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;property&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;  &lt;span class=&quot;vg&quot;&gt;$a2&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;aspect_data_value&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$adv2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;  &lt;span class=&quot;vg&quot;&gt;$a2&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;internal_reference&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$intref2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;  &lt;span class=&quot;vg&quot;&gt;$ptype2&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;aspect_name&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$aname2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;representedby: &lt;/span&gt;&lt;span class=&quot;vg&quot;&gt;$spo2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;represents: &lt;/span&gt;&lt;span class=&quot;vg&quot;&gt;$po2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;hasrepresentingsystem: &lt;/span&gt;&lt;span class=&quot;vg&quot;&gt;$sys2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;isa&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;representation&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;  &lt;span class=&quot;vg&quot;&gt;$po2&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ident&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$po_ident2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;  &lt;span class=&quot;vg&quot;&gt;$spo2&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$spo2name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;  &lt;span class=&quot;vg&quot;&gt;$sys2&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sysname&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$sysname2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;  &lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;  &lt;span class=&quot;vg&quot;&gt;$po_ident1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$po_ident2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;  &lt;span class=&quot;vg&quot;&gt;$aname1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$aname2&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;  &lt;span class=&quot;vg&quot;&gt;$adv1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$adv2&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;  &lt;span class=&quot;vg&quot;&gt;$spo1name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$spo2name&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;  &lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;span class=&quot;n&quot;&gt;get&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$adv1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$adv2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$sysname1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$sysname2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$po_ident1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$po_ident2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$intref1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$intref2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Which results in the following result:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;2&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;3&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;4&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;5&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;6&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;7&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;8&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;c1&quot;&gt;# {$po_ident1 &quot;1234ABCD&quot; isa ident; $adv2 &quot;FE360&quot; isa aspect_data_value; $po_ident2 &quot;1234ABCD&quot; isa ident; $adv1 &quot;FE3610&quot; isa aspect_data_value; $sysname2 &quot;E3D&quot; isa sysname; $sysname1 &quot;COMOS&quot; isa sysname;}&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;span class=&quot;c1&quot;&gt;# {$po_ident1 &quot;1234ABCD&quot; isa ident; $adv2 &quot;FE3610&quot; isa aspect_data_value; $po_ident2 &quot;1234ABCD&quot; isa ident; $adv1 &quot;FE360&quot; isa aspect_data_value; $sysname2 &quot;COMOS&quot; isa sysname; $sysname1 &quot;E3D&quot; isa sysname;}&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;span class=&quot;c1&quot;&gt;# {$po_ident1 &quot;3456ABCD&quot; isa ident; $adv2 &quot;FE371&quot; isa aspect_data_value; $po_ident2 &quot;3456ABCD&quot; isa ident; $adv1 &quot;FE370&quot; isa aspect_data_value; $sysname2 &quot;COMOS&quot; isa sysname; $sysname1 &quot;E3D&quot; isa sysname;}&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;span class=&quot;c1&quot;&gt;# {$po_ident1 &quot;3456ABCD&quot; isa ident; $adv2 &quot;FE371&quot; isa aspect_data_value; $po_ident2 &quot;3456ABCD&quot; isa ident; $adv1 &quot;FE360&quot; isa aspect_data_value; $sysname2 &quot;COMOS&quot; isa sysname; $sysname1 &quot;SAPPDM&quot; isa sysname;}&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;span class=&quot;c1&quot;&gt;# {$po_ident1 &quot;3456ABCD&quot; isa ident; $adv2 &quot;FE370&quot; isa aspect_data_value; $po_ident2 &quot;3456ABCD&quot; isa ident; $adv1 &quot;FE371&quot; isa aspect_data_value; $sysname2 &quot;E3D&quot; isa sysname; $sysname1 &quot;COMOS&quot; isa sysname;}&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;span class=&quot;c1&quot;&gt;# {$po_ident1 &quot;3456ABCD&quot; isa ident; $adv2 &quot;FE370&quot; isa aspect_data_value; $po_ident2 &quot;3456ABCD&quot; isa ident; $adv1 &quot;FE360&quot; isa aspect_data_value; $sysname2 &quot;E3D&quot; isa sysname; $sysname1 &quot;SAPPDM&quot; isa sysname;}&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;span class=&quot;c1&quot;&gt;# {$po_ident1 &quot;3456ABCD&quot; isa ident; $adv2 &quot;FE360&quot; isa aspect_data_value; $po_ident2 &quot;3456ABCD&quot; isa ident; $adv1 &quot;FE371&quot; isa aspect_data_value; $sysname2 &quot;SAPPDM&quot; isa sysname; $sysname1 &quot;COMOS&quot; isa sysname;}&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;span class=&quot;c1&quot;&gt;# {$po_ident1 &quot;3456ABCD&quot; isa ident; $adv2 &quot;FE360&quot; isa aspect_data_value; $po_ident2 &quot;3456ABCD&quot; isa ident; $adv1 &quot;FE370&quot; isa aspect_data_value; $sysname2 &quot;SAPPDM&quot; isa sysname; $sysname1 &quot;E3D&quot; isa sysname;}&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;The interesting thing is that, although the results here show the error twice for each difference (from A to B and from B to A), when implemented as a rule, the relation is only made once (which is exactly what we want).&lt;/p&gt;
+
+&lt;h3 id=&quot;the-rule-implemented&quot;&gt;The Rule Implemented&lt;/h3&gt;
+
+&lt;p&gt;Here’s the rule:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;2&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;3&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;4&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;5&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;6&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;7&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;8&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;9&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;10&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;11&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;12&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;13&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;14&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;15&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;16&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;17&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;18&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;19&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;20&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;21&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;22&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;23&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;24&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;25&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;26&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;27&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;28&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;29&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;30&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;31&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;32&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;33&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;34&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;n&quot;&gt;define&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;span class=&quot;n&quot;&gt;aspect&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;error&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;sub&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rule&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;span class=&quot;k&quot;&gt;when&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;hasproperty: &lt;/span&gt;&lt;span class=&quot;vg&quot;&gt;$a1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;defines: &lt;/span&gt;&lt;span class=&quot;vg&quot;&gt;$spo1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;ispropertytype: &lt;/span&gt;&lt;span class=&quot;vg&quot;&gt;$ptype1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;isa&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;property&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;  &lt;span class=&quot;vg&quot;&gt;$a1&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;aspect_data_value&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$adv1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;  &lt;span class=&quot;vg&quot;&gt;$a1&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;internal_reference&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$intref1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;  &lt;span class=&quot;vg&quot;&gt;$ptype1&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;aspect_name&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$aname1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;representedby: &lt;/span&gt;&lt;span class=&quot;vg&quot;&gt;$spo1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;represents: &lt;/span&gt;&lt;span class=&quot;vg&quot;&gt;$po1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;hasrepresentingsystem: &lt;/span&gt;&lt;span class=&quot;vg&quot;&gt;$sys1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;isa&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;representation&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;  &lt;span class=&quot;vg&quot;&gt;$po1&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ident&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$po_ident1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;  &lt;span class=&quot;vg&quot;&gt;$spo1&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$spo1name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;  &lt;span class=&quot;vg&quot;&gt;$sys1&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sysname&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$sysname1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;  &lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;hasproperty: &lt;/span&gt;&lt;span class=&quot;vg&quot;&gt;$a2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;defines: &lt;/span&gt;&lt;span class=&quot;vg&quot;&gt;$spo2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;ispropertytype: &lt;/span&gt;&lt;span class=&quot;vg&quot;&gt;$ptype2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;isa&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;property&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;  &lt;span class=&quot;vg&quot;&gt;$a2&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;aspect_data_value&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$adv2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;  &lt;span class=&quot;vg&quot;&gt;$a2&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;internal_reference&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$intref2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;  &lt;span class=&quot;vg&quot;&gt;$ptype2&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;aspect_name&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$aname2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;representedby: &lt;/span&gt;&lt;span class=&quot;vg&quot;&gt;$spo2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;represents: &lt;/span&gt;&lt;span class=&quot;vg&quot;&gt;$po2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;hasrepresentingsystem: &lt;/span&gt;&lt;span class=&quot;vg&quot;&gt;$sys2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;isa&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;representation&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;  &lt;span class=&quot;vg&quot;&gt;$po2&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ident&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$po_ident2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;  &lt;span class=&quot;vg&quot;&gt;$spo2&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$spo2name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;  &lt;span class=&quot;vg&quot;&gt;$sys2&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;has&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sysname&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$sysname2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;  &lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;  &lt;span class=&quot;vg&quot;&gt;$po_ident1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$po_ident2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;  &lt;span class=&quot;vg&quot;&gt;$aname1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$aname2&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;  &lt;span class=&quot;vg&quot;&gt;$adv1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$adv2&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;  &lt;span class=&quot;vg&quot;&gt;$spo1name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$spo2name&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;then&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;     &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;errorneousAspectValue: &lt;/span&gt;&lt;span class=&quot;vg&quot;&gt;$a1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;errorneousAspectValue: &lt;/span&gt;&lt;span class=&quot;vg&quot;&gt;$a2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;isa&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;alertDirectRelationPair&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;br data-jekyll-commonmark-ghpages=&quot;&quot; /&gt;&lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;In production situations the debugging code, that was part of the original query should probably be removed.&lt;/p&gt;
+
+&lt;h3 id=&quot;proving-of-the-concept&quot;&gt;Proving of the concept&lt;/h3&gt;
+&lt;p&gt;Now, does it all work?&lt;/p&gt;
+
+&lt;p&gt;Screenshot  from the GRAKN workbench:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/ruleresult.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Indeed we see the expected results. And note: there is no reference to any specific aspect in the code. This means the check will continue to work when we expand the aspect types.&lt;/p&gt;
+
+&lt;h2 id=&quot;concluding-notes&quot;&gt;Concluding notes&lt;/h2&gt;
+
+&lt;p&gt;In the previous chapter the concept of generic data quality rules is
+proven to be feasible.  In doing this, I learned that the
+graphical representation of the data is essential to be able to
+actuelly work work with it. Building a schema in GRAKN is different to
+building a schema in a relational database, because you do not get the
+structure that a relational database (like tables and keys) provides
+from the start.  A second thing I discovered: the .gql language is
+quite harsh at the moment to work with. There are Java stack-traces when there
+is an error, difficult to understand error messages, etc. The way
+forward was found in creating the examples in very small steps and
+verifying each simple step before continuing with the next one. The
+example scripts from GRAKN themselves ( see &lt;a href=&quot;https://dev.grakn.ai/docs/files/social-network/schema.gql&quot;&gt;here&lt;/a&gt; ) are quite helpful here as well.&lt;/p&gt;
+
+&lt;p&gt;Overall however, the GRAKN environment offers an unmatched functionality in knowledge representation in data rich environments.&lt;/p&gt;
+
+&lt;h2 id=&quot;downloads&quot;&gt;Downloads&lt;/h2&gt;
+
+&lt;p&gt;You can download the source files, if you want to experiment with this:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;The &lt;a href=&quot;/downloads/GRAKN/Alert_Object.gql&quot;&gt;Schema file&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;The &lt;a href=&quot;/downloads/GRAKN/insert_data.gql&quot;&gt;Data file&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;The &lt;a href=&quot;/downloads/GRAKN/insert_error_rule.gql&quot;&gt;Rule definition&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;alternative-solutions&quot;&gt;Alternative solutions&lt;/h2&gt;
+&lt;p&gt;Peter Crocker writes in this
+&lt;a href=&quot;https://towardsdatascience.com/the-intuitions-behind-knowledge-graphs-and-reasoning-59df2f1ad054&quot;&gt;article&lt;/a&gt;
+about RDFox, that allows reasoning in much the same way on RDF graphs.&lt;/p&gt;</content><author><name>Gert-Jan Aaftink</name></author><category term="GRAKN," /><category term="applied" /><category term="semantic" /><category term="technology" /><summary type="html">Automated rule based discrepancy discovery by adding knowledge rules to an existing data set</summary></entry><entry><title type="html">Sharing creates value</title><link href="http://localhost:4000/what%20i%20think/2020/02/16/sharing-creates-value/" rel="alternate" type="text/html" title="Sharing creates value" /><published>2020-02-16T00:00:00+01:00</published><updated>2020-02-16T00:00:00+01:00</updated><id>http://localhost:4000/what%20i%20think/2020/02/16/sharing-creates-value</id><content type="html" xml:base="http://localhost:4000/what%20i%20think/2020/02/16/sharing-creates-value/">&lt;blockquote&gt;
+  &lt;p&gt;The positive effects of sharing in capital projects.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;!-- more --&gt;
+
+&lt;h2 id=&quot;sharing&quot;&gt;Sharing&lt;/h2&gt;
+
+&lt;p class=&quot;px-article&quot;&gt;This is an article in progress, however some in future articles I will 
+detail I’ll already mention here as a kind of a preview. What I will
+show is that sharing (of information) seems in general to be a successful strategy when pursuing digitalization results. The question is not if, but mostly &lt;em&gt;what&lt;/em&gt; should be share to create the &lt;em&gt;best balance&lt;/em&gt; between giving away something and creating a financial result from that.&lt;/p&gt;
+
+&lt;h3 id=&quot;ipd&quot;&gt;IPD&lt;/h3&gt;
+
+&lt;p&gt;Integrated project delivery (as explained
+&lt;a href=&quot;https://www.hdrinc.com/insights/better-design-greater-consensus-integrated-project-delivery&quot;&gt;here&lt;/a&gt;)
+is a typical area where sharing (in this case of financial risks) creates value for all parties concerned.&lt;/p&gt;
+
+&lt;h3 id=&quot;bim-catalogs&quot;&gt;BIM catalogs&lt;/h3&gt;
+
+&lt;p&gt;Here again a sharing idea that delivers value: sharing the catalogs
+enables the parties sharing them to generate extra revenue, and it
+creates extra value for the customers of catalog parts because of the
+ease of ordering and the polished supply chain that follows the
+ordering process.&lt;/p&gt;
+
+&lt;h3 id=&quot;more-examples&quot;&gt;More examples&lt;/h3&gt;
+
+&lt;p&gt;Will follow when this article matures.&lt;/p&gt;</content><author><name>Gert-Jan Aaftink</name></author><summary type="html">The positive effects of sharing in capital projects.</summary></entry><entry><title type="html">Capital project digitalization</title><link href="http://localhost:4000/what%20i%20think/2017/07/20/digitalization-services/" rel="alternate" type="text/html" title="Capital project digitalization" /><published>2017-07-20T00:00:00+02:00</published><updated>2017-07-20T00:00:00+02:00</updated><id>http://localhost:4000/what%20i%20think/2017/07/20/digitalization-services</id><content type="html" xml:base="http://localhost:4000/what%20i%20think/2017/07/20/digitalization-services/">&lt;blockquote&gt;
+  &lt;p&gt;PX-Alpha is about digital transformation in capital projects.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;!-- more --&gt;
+
+&lt;h1 id=&quot;digitalization&quot;&gt;Digitalization&lt;/h1&gt;
+
+&lt;p class=&quot;px-article&quot;&gt;In general, digitization is defined along the lines of ‘…integration
+of digital technologies in everyday life..’ (see:
+&lt;a href=&quot;http://www.businessdictionary.com/definition/digitalization.html&quot;&gt;http://www.businessdictionary.com/definition/digitalization.html&lt;/a&gt;). This
+is also my main view point for digitalization.&lt;/p&gt;
+
+&lt;p&gt;To generalize many other existing definitions a bit, digitalization is the process in which
+modern digital technologies are applied to existing business processes
+resulting in significant changes in the way value is created.&lt;/p&gt;
+
+&lt;p&gt;What makes digitalization so complex is that it is not only
+technology. To be successful, changes in business processes and
+business culture are required as well. In general, digitalization is a
+transformation in more than one area.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/assets/images/construction-370588_640.jpg&quot; alt=&quot;project-info.jpg&quot; /&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;What this blog is all about: project information&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;And by definition: in capital projects the process
+involves the project parties, meaning the common understaning must be
+achieved over several seperate companies. In future articles an
+approach will be sketched that makes this process easier.&lt;/p&gt;
+
+&lt;p&gt;Being involved in these kind of changes, I’ve learned that in capital
+projects information integration is a key digitalization aspect.
+Integration inside the corporation or business unit, but especially between
+businesses and companies.&lt;/p&gt;
+
+&lt;p&gt;There are three reasons why integration is so valuable. Firstly the integration
+helps to break down the barriers between departments, functional areas and 
+data silos. Secondly, the resulting integrated information can be used for
+analyses and improvement of data quality. Thirdly the integration of data
+between companies (by, for example, exchanging linked datasets, or
+using shared linked data resources) helps to ensure a common
+understanding of shared data which accellerates project execution.&lt;/p&gt;
+
+&lt;p&gt;Personally, I think that the actual sharing of data and information
+often is the key to successful digitalization initiatives. The modern
+technology, the increased competition and expected reduction in lead
+time and profit from sharing early in a controlled way.&lt;/p&gt;
+
+&lt;p&gt;In the future articles you will be able to find more detailed
+information about technology in the technology section, likewise the
+transformation aspect will have a separate section, containing
+articles on the topic.&lt;/p&gt;
+
+&lt;h1 id=&quot;about-me-and-this-website&quot;&gt;About me and this website&lt;/h1&gt;
+
+&lt;p&gt;PX-Alpha is a private endeavor beside my day job. You can contact me
+using this website’s contact page if you have questions in regard to
+designing digital transformation strategies, linked data, general IT
+strategies (if you still have them), identification of opportunities
+and real value-add solutions. I’m always interested in broadening my
+knowledge in these areas.&lt;/p&gt;</content><author><name>Gert-Jan Aaftink</name></author><summary type="html">PX-Alpha is about digital transformation in capital projects. Digitalization In general, digitization is defined along the lines of ‘…integration of digital technologies in everyday life..’ (see: http://www.businessdictionary.com/definition/digitalization.html). This is also my main view point for digitalization. To generalize many other existing definitions a bit, digitalization is the process in which modern digital technologies are applied to existing business processes resulting in significant changes in the way value is created. What makes digitalization so complex is that it is not only technology. To be successful, changes in business processes and business culture are required as well. In general, digitalization is a transformation in more than one area. What this blog is all about: project information And by definition: in capital projects the process involves the project parties, meaning the common understaning must be achieved over several seperate companies. In future articles an approach will be sketched that makes this process easier. Being involved in these kind of changes, I’ve learned that in capital projects information integration is a key digitalization aspect. Integration inside the corporation or business unit, but especially between businesses and companies. There are three reasons why integration is so valuable. Firstly the integration helps to break down the barriers between departments, functional areas and data silos. Secondly, the resulting integrated information can be used for analyses and improvement of data quality. Thirdly the integration of data between companies (by, for example, exchanging linked datasets, or using shared linked data resources) helps to ensure a common understanding of shared data which accellerates project execution. Personally, I think that the actual sharing of data and information often is the key to successful digitalization initiatives. The modern technology, the increased competition and expected reduction in lead time and profit from sharing early in a controlled way. In the future articles you will be able to find more detailed information about technology in the technology section, likewise the transformation aspect will have a separate section, containing articles on the topic. About me and this website PX-Alpha is a private endeavor beside my day job. You can contact me using this website’s contact page if you have questions in regard to designing digital transformation strategies, linked data, general IT strategies (if you still have them), identification of opportunities and real value-add solutions. I’m always interested in broadening my knowledge in these areas.</summary></entry><entry><title type="html">This site</title><link href="http://localhost:4000/geek-mode/2017/01/13/This-site/" rel="alternate" type="text/html" title="This site" /><published>2017-01-13T00:00:00+01:00</published><updated>2017-01-13T00:00:00+01:00</updated><id>http://localhost:4000/geek-mode/2017/01/13/This-site</id><content type="html" xml:base="http://localhost:4000/geek-mode/2017/01/13/This-site/">&lt;blockquote&gt;
+  &lt;p&gt;How this site was made&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;!-- more --&gt;
+
+&lt;h1 id=&quot;the-making-of-this-site&quot;&gt;The making of this site&lt;/h1&gt;
+
+&lt;p class=&quot;px-article&quot;&gt;I thought it help me to remember what I’ve used for this site, in case
+I want to change things on it later. So here’s a list and description
+of what was used for it.&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;jekyll&quot;&gt;Jekyll&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/4/42/Jekyll_%28software%29_Logo.png&quot; alt=&quot;Jekyll&quot; style=&quot;float:left; width: 25%; padding-right: 20px;  border-style:none;&quot; /&gt; 
+The site is a Jekyll site. Jekyll is a framework to create static
+sites, so the only thing that is on the web-server are static HTML
+pages. Jekyll is a Ruby application that transforms the posts written 
+in Markdown into the aforementioned HTML pages.&lt;br /&gt;
+Read more: &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;https://jekyllrb.com/&lt;/a&gt;, and on extending the Jekyll system without plugins: &lt;a href=&quot;https://jekyllcodex.org/&quot;&gt;https://jekyllcodex.org/&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;markdown&quot;&gt;Markdown&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Markdown.png/320px-Markdown.png&quot; alt=&quot;Markdown&quot; style=&quot;float:left; width: 25%; padding-right: 20px;  border-style:none;&quot; /&gt; 
+The language in which the Jekyll pages are written.&lt;br /&gt;
+Find a lot more here: &lt;a href=&quot;https://daringfireball.net/projects/markdown/syntax&quot;&gt;https://daringfireball.net/projects/markdown/syntax&lt;/a&gt;. And find (warning: geek-mode: on) markdown mode for Emacs: &lt;a href=&quot;https://jblevins.org/projects/markdown-mode/&quot;&gt;https://jblevins.org/projects/markdown-mode/&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;google-fonts&quot;&gt;Google fonts&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/logo-google-1991840_640.png&quot; alt=&quot;Google logo&quot; style=&quot;float:left; width: 25%; padding-right: 20px;  border-style:none;&quot; /&gt; 
+I used Volkorn &lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt; for the initial character of the main post text.&lt;br /&gt;
+Find it here: &lt;a href=&quot;https://fonts.google.com/specimen/Vollkorn?sidebar.open=true&amp;amp;selection.family=Vollkorn:ital,wght@1,700&amp;amp;preview.text=Almost+before+we+knew+it,+we+had+left+the+ground.+TTT&amp;amp;preview.text_type=custom&quot;&gt;https://fonts.google.com/specimen/Vollkorn&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;What I used to make this work was&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/CSS/::first-letter&quot;&gt;Some CSS&lt;/a&gt; and some &lt;a href=&quot;https://www.digitalocean.com/community/tutorials/css-drop-caps&quot;&gt;more CSS&lt;/a&gt;, because the drop-caps are rendered differently in Chrome and in Firefox. &lt;br /&gt;
+&lt;a href=&quot;https://stackoverflow.com/questions/41455133/how-do-you-programmatically-apply-a-css-class-to-paragraphs-in-jekyll&quot;&gt;Some Kramdown IALs&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://developers.google.com/fonts/docs/getting_started&quot;&gt;A getting started with google fonts&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;contact-page&quot;&gt;Contact page&lt;/h1&gt;
+&lt;p&gt;tbd&lt;/p&gt;
+
+&lt;h1 id=&quot;page-comments&quot;&gt;Page comments&lt;/h1&gt;
+&lt;p&gt;Boy, that turned out to be much more complex than I expected it to be. I mean, how hard can this be in 2020? I tried several solutions, and finally settled on Commentics.&lt;/p&gt;
+
+&lt;h2 id=&quot;commenting-solutions-that-did-not-work-out&quot;&gt;Commenting solutions that did not work out&lt;/h2&gt;
+&lt;p&gt;I tried several solutions that, for various reasons, did not work out. I found several solutions &lt;a href=&quot;https://ourcodeworld.com/articles/read/1265/top-7-best-open-source-self-hosted-comment-system-alternatives-to-disqus&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;staticman&quot;&gt;StaticMan&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/StaticManLogo.png&quot; alt=&quot;StaticMan&quot; style=&quot;float:left; width: 25%; padding-right: 20px;  border-style:none;&quot; /&gt; 
+Find it here: &lt;a href=&quot;https://staticman.net/&quot;&gt;https://staticman.net/&lt;/a&gt; and
+more here 
+&lt;a href=&quot;https://www.vojtechruzicka.com/staticman/&quot;&gt;https://www.vojtechruzicka.com/staticman/&lt;/a&gt;.&lt;sup id=&quot;fnref:3&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt; 
+StaticMan
+keeps your Jekyll site static, by pushing user comments to the GitHub
+site where your Jekyll code lives and updates the posts accordingly to
+the comments, by entering pull requests for them (I think, I never got
+to that point). What stopped me was the unclarity of the
+documentation: run this on Heroku? Or on GitHub? Which StaticManBot to
+use? And in which usage scenario? Anyway, I did not make it to get it
+into a working state.&lt;/p&gt;
+
+&lt;h3 id=&quot;hashover&quot;&gt;HashOver&lt;/h3&gt;
+&lt;p&gt;Find it here:
+&lt;a href=&quot;https://www.barkdull.org/software/hashover&quot;&gt;https://www.barkdull.org/software/hashover&lt;/a&gt;.
+APHP solution to comments (my provider allows running PHP
+scripts). Got very confused about names of files and the contents of
+them (hashover.php in root folder is called /hashover/comment.php in
+documentation? There are differences between the .zip download and the
+GitHub repo?). Had to walk away, sorry for that.&lt;/p&gt;
+
+&lt;h3 id=&quot;disqus&quot;&gt;Disqus&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/disqus-social-icon-blue-transparent.png&quot; alt=&quot;Disqus&quot; style=&quot;float:left; width: 15%; padding-right: 20px; border-style:none;&quot; /&gt; 
+Find it here: &lt;a href=&quot;https://disqus.com/&quot;&gt;https://disqus.com/&lt;/a&gt;.&lt;sup id=&quot;fnref:4&quot;&gt;&lt;a href=&quot;#fn:4&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt; A hosted solution. Got it working quite quickly, however, as the solution is based on an iframe that is loaded from the disqus site, there is no way to style the comment area. And it looked horrible. A no-go.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-one-that-worked-commentics&quot;&gt;The one that worked: Commentics&lt;/h2&gt;
+&lt;p&gt;Find it here:
+&lt;a href=&quot;https://www.commentics.org/&quot;&gt;https://www.commentics.org/&lt;/a&gt;.
+PHP based, easy install, worked right out if the box, even using the iframe setup, the comments area can be styled. Nice. Works well together with Jekyll. There is was, after one full day of work, a working comment solution.&lt;/p&gt;
+
+&lt;h1 id=&quot;what-i-learned-along-the-way&quot;&gt;What I learned along the way&lt;/h1&gt;
+
+&lt;h2 id=&quot;using-php-in-a-jekyll-site&quot;&gt;Using PHP in a Jekyll site.&lt;/h2&gt;
+&lt;p&gt;An interesting approach, that allows PHP inside Jekyll markup, but also Jekyll markup in PHP, read the article here: &lt;a href=&quot;https://christianspecht.de/2017/10/04/running-a-combined-jekyll-php-site-on-xampp/&quot;&gt;Running a combined Jekyll/PHP site on XAMPP&lt;/a&gt; by Christian Specht.&lt;/p&gt;
+
+&lt;h2 id=&quot;heroku&quot;&gt;Heroku&lt;/h2&gt;
+&lt;p&gt;I knew about Heroku as a Ruby hosting solution, but as a result of the StaticMan research I had a better look at it again. It’s not only Ruby, but all of the other main languages as well. Including CI/CD pipelines et cetera. This may be an interesting solution for future development work.&lt;/p&gt;
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;Unless otherwise mentioned the images on this page are provided under the &lt;a href=&quot;https://creativecommons.org/licenses/by-sa/4.0/deed.en&quot;&gt;Creative Commons Attribution-Share Alike 4.0 International&lt;/a&gt; licence, and copied from the wikimedia.org website.&amp;nbsp;&lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot;&gt;
+      &lt;p&gt;Image by &lt;a href=&quot;https://pixabay.com/users/ElisaRiva-1348268/?utm_source=link-attribution&amp;amp;utm_medium=referral&amp;amp;utm_campaign=image&amp;amp;utm_content=1991840&quot;&gt;ElisaRiva&lt;/a&gt; from &lt;a href=&quot;https://pixabay.com/?utm_source=link-attribution&amp;amp;utm_medium=referral&amp;amp;utm_campaign=image&amp;amp;utm_content=1991840&quot;&gt;Pixabay&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:3&quot;&gt;
+      &lt;p&gt;Image taken from https://github.com/eduardoboucas/staticman&amp;nbsp;&lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:4&quot;&gt;
+      &lt;p&gt;Image taken from Disqus website.&amp;nbsp;&lt;a href=&quot;#fnref:4&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name>Gert-Jan Aaftink</name></author><summary type="html">How this site was made</summary></entry></feed>

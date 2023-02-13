@@ -1,0 +1,388 @@
+PX\|Alpha informs engineering and construction companies about digital transformation. Read the [introduction to this website](/what%20i%20think/2017/07/20/digitalization-services/)  or the [articles I've written about this](/archives/), or go to the [About section of this site](/about/) for an impression of me and what I intend to do.
+I hope you will find this site useful. Contact me with constructive suggestions on the contacts page. 
+
+
+<section id="posts" class="posts-collapse" hidden>
+  <span class="archive-move-on"></span>
+
+  <span class="archive-page-counter">
+    
+    
+    
+    
+      
+    
+    
+  </span>
+
+  
+  
+
+  
+    
+
+    
+    
+    
+      
+      <div class="collection-title" route="/">
+        <h2 class="archive-year motion-element" id="archive-year-2020">2020</h2>
+      </div>
+    
+    
+
+    
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article" route="/">
+    <header class="post-header">
+
+      <h2 class="post-title">
+        
+            <a class="post-title-link" href="/what%20i%20research/2020/09/25/The-Value-add-of-Knowledge-Graphs-in-capital-projects/" itemprop="url">
+              
+                <span itemprop="name">The added value of knowledge graphs in capital projects </span>
+              
+            </a>
+	    <p>Value-add of knowledge graphs in capital projects, a new series. </p>
+        
+      </h2>
+
+      <div class="post-meta">
+        <time class="post-time" itemprop="dateCreated"
+              datetime="2020-09-25T00:00:00+02:00"
+              content="2020-09-25" >
+          09-25
+        </time>
+      </div>
+
+    </header>
+  </article>
+
+
+  
+    
+
+    
+    
+    
+    
+
+    
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article" route="/">
+    <header class="post-header">
+
+      <h2 class="post-title">
+        
+            <a class="post-title-link" href="/what%20i%20think/what%20i%20read/2020/08/30/Ontologies-and-graphs/" itemprop="url">
+              
+                <span itemprop="name">On ontologies and graphs </span>
+              
+            </a>
+	    <p>Inspiration from an article dating back to 2018. Leading to the value of ontologies and outline for the specific use-cases for knowledge graphs </p>
+        
+      </h2>
+
+      <div class="post-meta">
+        <time class="post-time" itemprop="dateCreated"
+              datetime="2020-08-30T00:00:00+02:00"
+              content="2020-08-30" >
+          08-30
+        </time>
+      </div>
+
+    </header>
+  </article>
+
+
+  
+    
+
+    
+    
+    
+    
+
+    
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article" route="/">
+    <header class="post-header">
+
+      <h2 class="post-title">
+        
+            <a class="post-title-link" href="/what%20i%20research/2020/08/30/One-without-the-other/" itemprop="url">
+              
+                <span itemprop="name">One without the other </span>
+              
+            </a>
+	    <p>The value of ontologies and graphs in capital projects explained </p>
+        
+      </h2>
+
+      <div class="post-meta">
+        <time class="post-time" itemprop="dateCreated"
+              datetime="2020-08-30T00:00:00+02:00"
+              content="2020-08-30" >
+          08-30
+        </time>
+      </div>
+
+    </header>
+  </article>
+
+
+  
+    
+
+    
+    
+    
+    
+
+    
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article" route="/">
+    <header class="post-header">
+
+      <h2 class="post-title">
+        
+            <a class="post-title-link" href="/what%20i%20think/2020/08/30/Does-size-matter/" itemprop="url">
+              
+                <span itemprop="name">Does ontology size matter? </span>
+              
+            </a>
+	    <p>Is there an optimal size for ontologies? </p>
+        
+      </h2>
+
+      <div class="post-meta">
+        <time class="post-time" itemprop="dateCreated"
+              datetime="2020-08-30T00:00:00+02:00"
+              content="2020-08-30" >
+          08-30
+        </time>
+      </div>
+
+    </header>
+  </article>
+
+
+  
+    
+
+    
+    
+    
+    
+
+    
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article" route="/">
+    <header class="post-header">
+
+      <h2 class="post-title">
+        
+            <a class="post-title-link" href="/what%20i%20read/2020/08/26/Interesting-reads/" itemprop="url">
+              
+                <span itemprop="name">Interesting reads </span>
+              
+            </a>
+	    <p>Books, articles and websites </p>
+        
+      </h2>
+
+      <div class="post-meta">
+        <time class="post-time" itemprop="dateCreated"
+              datetime="2020-08-26T00:00:00+02:00"
+              content="2020-08-26" >
+          08-26
+        </time>
+      </div>
+
+    </header>
+  </article>
+
+
+  
+    
+
+    
+    
+    
+    
+
+    
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article" route="/">
+    <header class="post-header">
+
+      <h2 class="post-title">
+        
+            <a class="post-title-link" href="/what%20i%20think/2020/05/17/The-Single-Source-Of-The-Truth/" itemprop="url">
+              
+                <span itemprop="name">The single source of the truth </span>
+              
+            </a>
+	    <p>What happened to the single source of the truth? </p>
+        
+      </h2>
+
+      <div class="post-meta">
+        <time class="post-time" itemprop="dateCreated"
+              datetime="2020-05-17T00:00:00+02:00"
+              content="2020-05-17" >
+          05-17
+        </time>
+      </div>
+
+    </header>
+  </article>
+
+
+  
+    
+
+    
+    
+    
+    
+
+    
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article" route="/">
+    <header class="post-header">
+
+      <h2 class="post-title">
+        
+            <a class="post-title-link" href="/what%20i%20research/2020/05/13/A-taste-of-GRAKN/" itemprop="url">
+              
+                <span itemprop="name">A taste of GRAKN </span>
+              
+            </a>
+	    <p>Automated rule based discrepancy discovery by adding knowledge rules to an existing data set </p>
+        
+      </h2>
+
+      <div class="post-meta">
+        <time class="post-time" itemprop="dateCreated"
+              datetime="2020-05-13T00:00:00+02:00"
+              content="2020-05-13" >
+          05-13
+        </time>
+      </div>
+
+    </header>
+  </article>
+
+
+  
+    
+
+    
+    
+    
+    
+
+    
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article" route="/">
+    <header class="post-header">
+
+      <h2 class="post-title">
+        
+            <a class="post-title-link" href="/what%20i%20think/2020/02/16/sharing-creates-value/" itemprop="url">
+              
+                <span itemprop="name">Sharing creates value </span>
+              
+            </a>
+	    <p>The positive effects of sharing in capital projects </p>
+        
+      </h2>
+
+      <div class="post-meta">
+        <time class="post-time" itemprop="dateCreated"
+              datetime="2020-02-16T00:00:00+01:00"
+              content="2020-02-16" >
+          02-16
+        </time>
+      </div>
+
+    </header>
+  </article>
+
+
+  
+    
+
+    
+    
+    
+      
+      <div class="collection-title" route="/">
+        <h2 class="archive-year motion-element" id="archive-year-2017">2017</h2>
+      </div>
+    
+    
+
+    
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article" route="/">
+    <header class="post-header">
+
+      <h2 class="post-title">
+        
+            <a class="post-title-link" href="/what%20i%20think/2017/07/20/digitalization-services/" itemprop="url">
+              
+                <span itemprop="name">Capital project digitalization </span>
+              
+            </a>
+	    <p>PX-Alpha is about digital transformation in capital projects </p>
+        
+      </h2>
+
+      <div class="post-meta">
+        <time class="post-time" itemprop="dateCreated"
+              datetime="2017-07-20T00:00:00+02:00"
+              content="2017-07-20" >
+          07-20
+        </time>
+      </div>
+
+    </header>
+  </article>
+
+
+  
+    
+
+    
+    
+    
+    
+
+    
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article" route="/">
+    <header class="post-header">
+
+      <h2 class="post-title">
+        
+            <a class="post-title-link" href="/geek-mode/2017/01/13/This-site/" itemprop="url">
+              
+                <span itemprop="name">This site </span>
+              
+            </a>
+	    <p>How this site was made </p>
+        
+      </h2>
+
+      <div class="post-meta">
+        <time class="post-time" itemprop="dateCreated"
+              datetime="2017-01-13T00:00:00+01:00"
+              content="2017-01-13" >
+          01-13
+        </time>
+      </div>
+
+    </header>
+  </article>
+
+
+  
+
+</section>
+
+<nav class="pagination"></nav>
+
+
+
